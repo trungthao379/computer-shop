@@ -1,0 +1,38 @@
+﻿@model IEnumerable<Laptop.Models.Manufacturer>
+
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/AdminLayout.cshtml";
+}
+
+<h2>Index</h2>
+
+<p>
+    @Html.ActionLink("Tạo mới", "Create")
+</p>
+<table id="dataTables-example" class="table table-responsive">
+
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.manufacturerName)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.manufacturerName)
+                </td>
+                <td>
+                    @Html.ActionLink("Cập nhật", "Edit", new { id = item.manufacturerID }) |
+                    @Html.ActionLink("Chi tiết", "Details", new { id = item.manufacturerID }) |
+                    @Html.ActionLink("Xóa", "Delete", new { id = item.manufacturerID })
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

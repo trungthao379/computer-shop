@@ -1,0 +1,85 @@
+﻿@model Laptop.Models.CPU
+
+@{
+    ViewBag.Title = "Create";
+    Layout = "~/Views/Shared/AdminLayout.cshtml";
+}
+
+<h2>Thêm</h2>
+
+@using (Html.BeginForm()) 
+{
+    @Html.AntiForgeryToken()
+    
+    <div class="form-horizontal">
+        <h4>CPU</h4>
+        <hr />
+        @Html.ValidationSummary(true)
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.cpuID, new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.cpuID)
+                @Html.ValidationMessageFor(model => model.cpuID)
+            </div>
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.cpuName, new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.cpuName)
+                @Html.ValidationMessageFor(model => model.cpuName)
+            </div>
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.manufacturer, new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.manufacturer)
+                @Html.ValidationMessageFor(model => model.manufacturer)
+            </div>
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.technology, new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.technology)
+                @Html.ValidationMessageFor(model => model.technology)
+            </div>
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.cpuType, new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.cpuType)
+                @Html.ValidationMessageFor(model => model.cpuType)
+            </div>
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.speed, new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.speed)
+                @Html.ValidationMessageFor(model => model.speed)
+            </div>
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.isNoLonger, new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.isNoLonger)
+                @Html.ValidationMessageFor(model => model.isNoLonger)
+            </div>
+        </div>
+
+        <div class="form-group">
+            <div class="col-md-offset-2 col-md-10">
+                <input type="submit" value="Create" class="btn btn-default" />
+            </div>
+        </div>
+    </div>
+}
+
+<div>
+    @Html.ActionLink("Trở về", "Index")
+</div>

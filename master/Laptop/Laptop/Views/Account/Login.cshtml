@@ -1,0 +1,45 @@
+﻿@model Laptop.Models.LoginViewModel
+
+@{
+    ViewBag.Title = "Đăng nhập";
+    Layout = "~/Views/Layout/CustomLayout.cshtml";
+}
+
+<div class="account_grid">
+    <div class="login-right">
+        <h3>KHÁCH HÀNG ĐÃ CÓ TÀI KHOẢN</h3>
+        <p>Nếu bạn đã có tài khoản, vui lòng điền thông tin tài khoản để đăng nhập</p>
+        @using (Html.BeginForm("Login", "Account", new { ReturnUrl = ViewBag.ReturnUrl }, FormMethod.Post, new { @class = "form-horizontal", role = "form" }))
+            {
+            @Html.AntiForgeryToken()
+            @Html.ValidationSummary(true)
+            <div>
+                <span>UserName<label>*</label></span>
+                @Html.TextBoxFor(m => m.UserName, new { @class = "form-control" })
+                @Html.ValidationMessageFor(m => m.UserName)
+            </div>
+            <div>
+                <span>Password<label>*</label></span>
+                @Html.PasswordFor(m => m.Password, new { @class = "form-control" })
+                @Html.ValidationMessageFor(m => m.Password)
+            </div>
+
+            <div>
+                @Html.CheckBoxFor(m => m.RememberMe)
+                <span><label>Ghi nhớ đăng nhập</label></span>
+            </div>
+
+            @*<a class="forgot" href="#">Forgot Your Password?</a>*@
+            <input type="submit" value="Login">
+            }
+    </div>
+    <div class="login-left">
+        <h3>KHÁCH HÀNG MỚI</h3>
+        <p>Nếu bạn chưa có tài khoản, Bạn có thể đăng kí tài khoản mới. Khi có tài khoản bạn có thể đặt hàng online</p>
+        <a class="acount-btn" href="~/Account/Register">Create an Account</a>
+    </div>
+</div>
+
+@section Scripts {
+    @Scripts.Render("~/bundles/jqueryval")
+}

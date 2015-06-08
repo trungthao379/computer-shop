@@ -1,0 +1,113 @@
+﻿@model PagedList.IPagedList<Laptop.Models.Product>
+@using PagedList.Mvc;
+<link href="~/Content/PagedList.css" rel="stylesheet" type="text/css" />
+
+@{
+    ViewBag.Title = "Index";
+}
+
+@*Trang kết quả tìm kiếm*@
+@using (Html.BeginForm("ShowNewProduct", "Show", FormMethod.Get))
+{
+    <div class="panel-group">
+        <div class="panel panel-primary">
+            <div class="panel-heading al-center">
+                <h3>Đây có phải sản phẩm bạn muốn tìm?</h3>
+            </div>
+            <div class="panel-body">
+
+                @*Nếu có sản phẩm*@
+                @if (Model.Count != 0)
+                {
+                    <div class="row mg-10">
+                        <div class="row">
+                            @foreach (var item in Model)
+                            {
+                                <div class="col-md-4">
+                                    <div class="thumbnail mg-1">
+
+                                        <img src="/Upload/Images/Products/@item.imageSrc" alt="@item.productName" class="col-md-12 img-thumbnail" />
+
+                                        <div class="caption">
+                                            @if (item.isNoLonger) // Nếu hết hàng
+                                            {
+                                                <div class="row mg-1 al-center">
+                                                    <p class="c-dan f-s">Không còn hàng.</p>
+                                                </div>
+                                            }
+                                            else
+                                            {
+                                                <div class="row mg-1">
+                                                    <div class="row">
+                                                        <div class="col-md-10">
+                                                            @Html.ActionLink(item.productName, "Details", "ProductDetail", new { id = @item.productID }, new { @class = "c-pri fnt f-s bold" })
+                                                        </div>
+                                                        @if (item.isNew) // Nếu hàng mới
+                                                        {
+                                                            <div class="col-md-2">
+                                                                <img height="40" width="40" src="/Images/gif/animated-new.gif" />
+                                                            </div>
+                                                        }
+                                                        else if (item.isSale) // Nếu hàng giảm giá
+                                                        {
+                                                            <div class="col-md-2">
+                                                                <img height="40" width="40" src="/Images/gif/animated-sale.gif" />
+                                                            </div>
+                                                        }
+                                                    </div>
+                                                    <div class="row">
+                                                        <div class="col-md-10">
+                                                            <p class="fnt-sub bold f-s">Giá: @item.unitPrice VND</p><br />
+                                                        </div>
+                                                        @if (item.isHot) // Nếu hàng bán chạy
+                                                        {
+                                                            <div class="col-md-2">
+                                                                <img height="40" width="40" src="/Images/gif/hot-animation.gif" />
+                                                            </div>
+                                                        }
+
+                                                    </div>
+                                                </div>
+
+                                                <div class="row mg-1">
+                                                    <span>
+                                                        @Html.ActionLink("Thêm vào giỏ", "AddToCart", "Shopping", new { id = item.productID },
+                                                new { @class = "btn btn-info fnt f-xs" })
+
+                                                        @Html.ActionLink("Chi tiết", "Details", "ProductDetail", new { id = item.productID },
+                                                 new { @class = "btn btn-default fnt f-xs" })
+
+                                                    </span>
+                                                </div>
+                                            }
+
+                                        </div>
+                                    </div>
+                                </div>
+                            }
+
+                        </div>
+                    </div>
+                }
+                @*Nếu không có sản phẩm*@
+                else
+                {
+                    <div class="row al-center mg-30">
+                        <p class="fnt-sub f-l clor-sub">Hiện tại không có hàng mới</p>
+                    </div>
+                }
+            </div>
+            <div class="panel-footer">
+                <div class="row">
+                    <div class="col-md-4 col-md-offset-4">
+                        @(Model.PageCount < Model.PageNumber ? 0 : Model.PageNumber) / @Model.PageCount Trang
+                        @Html.PagedListPager(Model, page => Url.Action("ShowNewProduct", new { page }))
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+}
+
+
+

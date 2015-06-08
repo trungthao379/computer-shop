@@ -1,0 +1,71 @@
+﻿@model IEnumerable<Laptop.Models.Screen>
+
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/AdminLayout.cshtml";
+}
+
+        @Html.ActionLink("Tạo mới", "Create")
+        <table id="dataTables-example" class="table table-hover table-responsive ">
+            <thead>
+                <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.screenName)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.manufacturer)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.size)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.touchScreen)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.resolution)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.isNoLonger)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.type)
+            </th>
+            <th></th>
+            </tr>
+            </thead>
+            <tbody>
+                @foreach (var item in Model)
+                {
+                    <tr>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.screenName)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.manufacturer)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.size)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.touchScreen)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.resolution)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.isNoLonger)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.type)
+                        </td>
+                        <td>
+                            @Html.ActionLink("Cập nhật", "Edit", new { id = item.screenID }) |
+                            @Html.ActionLink("Chi tiết", "Details", new { id = item.screenID }) |
+                            @Html.ActionLink("Xóa", "Delete", new { id = item.screenID })
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    
+

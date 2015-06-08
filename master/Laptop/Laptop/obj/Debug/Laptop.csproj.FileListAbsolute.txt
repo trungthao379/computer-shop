@@ -1,0 +1,364 @@
+c:\users\blackrose\documents\visual studio 2013\Projects\Laptop\Laptop\bin\Laptop.dll.config
+c:\users\blackrose\documents\visual studio 2013\Projects\Laptop\Laptop\bin\Laptop.dll
+c:\users\blackrose\documents\visual studio 2013\Projects\Laptop\Laptop\bin\Laptop.pdb
+c:\users\blackrose\documents\visual studio 2013\Projects\Laptop\Laptop\bin\Antlr3.Runtime.dll
+c:\users\blackrose\documents\visual studio 2013\Projects\Laptop\Laptop\bin\EntityFramework.dll
+c:\users\blackrose\documents\visual studio 2013\Projects\Laptop\Laptop\bin\EntityFramework.SqlServer.dll
+c:\users\blackrose\documents\visual studio 2013\Projects\Laptop\Laptop\bin\Microsoft.AspNet.Identity.Core.dll
+c:\users\blackrose\documents\visual studio 2013\Projects\Laptop\Laptop\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+c:\users\blackrose\documents\visual studio 2013\Projects\Laptop\Laptop\bin\Microsoft.AspNet.Identity.Owin.dll
+c:\users\blackrose\documents\visual studio 2013\Projects\Laptop\Laptop\bin\Microsoft.Owin.dll
+c:\users\blackrose\documents\visual studio 2013\Projects\Laptop\Laptop\bin\Microsoft.Owin.Host.SystemWeb.dll
+c:\users\blackrose\documents\visual studio 2013\Projects\Laptop\Laptop\bin\Microsoft.Owin.Security.Cookies.dll
+c:\users\blackrose\documents\visual studio 2013\Projects\Laptop\Laptop\bin\Microsoft.Owin.Security.dll
+c:\users\blackrose\documents\visual studio 2013\Projects\Laptop\Laptop\bin\Microsoft.Owin.Security.Facebook.dll
+c:\users\blackrose\documents\visual studio 2013\Projects\Laptop\Laptop\bin\Microsoft.Owin.Security.Google.dll
+c:\users\blackrose\documents\visual studio 2013\Projects\Laptop\Laptop\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+c:\users\blackrose\documents\visual studio 2013\Projects\Laptop\Laptop\bin\Microsoft.Owin.Security.OAuth.dll
+c:\users\blackrose\documents\visual studio 2013\Projects\Laptop\Laptop\bin\Microsoft.Owin.Security.Twitter.dll
+c:\users\blackrose\documents\visual studio 2013\Projects\Laptop\Laptop\bin\Microsoft.Web.Infrastructure.dll
+c:\users\blackrose\documents\visual studio 2013\Projects\Laptop\Laptop\bin\Newtonsoft.Json.dll
+c:\users\blackrose\documents\visual studio 2013\Projects\Laptop\Laptop\bin\Owin.dll
+c:\users\blackrose\documents\visual studio 2013\Projects\Laptop\Laptop\bin\System.Web.Helpers.dll
+c:\users\blackrose\documents\visual studio 2013\Projects\Laptop\Laptop\bin\System.Web.Mvc.dll
+c:\users\blackrose\documents\visual studio 2013\Projects\Laptop\Laptop\bin\System.Web.Optimization.dll
+c:\users\blackrose\documents\visual studio 2013\Projects\Laptop\Laptop\bin\System.Web.Razor.dll
+c:\users\blackrose\documents\visual studio 2013\Projects\Laptop\Laptop\bin\System.Web.WebPages.Deployment.dll
+c:\users\blackrose\documents\visual studio 2013\Projects\Laptop\Laptop\bin\System.Web.WebPages.dll
+c:\users\blackrose\documents\visual studio 2013\Projects\Laptop\Laptop\bin\System.Web.WebPages.Razor.dll
+c:\users\blackrose\documents\visual studio 2013\Projects\Laptop\Laptop\bin\WebGrease.dll
+c:\users\blackrose\documents\visual studio 2013\Projects\Laptop\Laptop\bin\System.Web.Helpers.xml
+c:\users\blackrose\documents\visual studio 2013\Projects\Laptop\Laptop\bin\System.Web.Mvc.xml
+c:\users\blackrose\documents\visual studio 2013\Projects\Laptop\Laptop\bin\System.Web.Optimization.xml
+c:\users\blackrose\documents\visual studio 2013\Projects\Laptop\Laptop\bin\System.Web.Razor.xml
+c:\users\blackrose\documents\visual studio 2013\Projects\Laptop\Laptop\bin\System.Web.WebPages.xml
+c:\users\blackrose\documents\visual studio 2013\Projects\Laptop\Laptop\bin\System.Web.WebPages.Deployment.xml
+c:\users\blackrose\documents\visual studio 2013\Projects\Laptop\Laptop\bin\System.Web.WebPages.Razor.xml
+c:\users\blackrose\documents\visual studio 2013\Projects\Laptop\Laptop\bin\Newtonsoft.Json.xml
+c:\users\blackrose\documents\visual studio 2013\Projects\Laptop\Laptop\bin\Antlr3.Runtime.pdb
+c:\users\blackrose\documents\visual studio 2013\Projects\Laptop\Laptop\bin\EntityFramework.xml
+c:\users\blackrose\documents\visual studio 2013\Projects\Laptop\Laptop\bin\EntityFramework.SqlServer.xml
+c:\users\blackrose\documents\visual studio 2013\Projects\Laptop\Laptop\bin\Microsoft.AspNet.Identity.Core.xml
+c:\users\blackrose\documents\visual studio 2013\Projects\Laptop\Laptop\bin\Microsoft.AspNet.Identity.Owin.xml
+c:\users\blackrose\documents\visual studio 2013\Projects\Laptop\Laptop\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+c:\users\blackrose\documents\visual studio 2013\Projects\Laptop\Laptop\bin\Microsoft.Owin.xml
+c:\users\blackrose\documents\visual studio 2013\Projects\Laptop\Laptop\bin\Microsoft.Owin.Host.SystemWeb.xml
+c:\users\blackrose\documents\visual studio 2013\Projects\Laptop\Laptop\bin\Microsoft.Owin.Security.xml
+c:\users\blackrose\documents\visual studio 2013\Projects\Laptop\Laptop\bin\Microsoft.Owin.Security.Facebook.xml
+c:\users\blackrose\documents\visual studio 2013\Projects\Laptop\Laptop\bin\Microsoft.Owin.Security.Cookies.xml
+c:\users\blackrose\documents\visual studio 2013\Projects\Laptop\Laptop\bin\Microsoft.Owin.Security.OAuth.xml
+c:\users\blackrose\documents\visual studio 2013\Projects\Laptop\Laptop\bin\Microsoft.Owin.Security.Google.xml
+c:\users\blackrose\documents\visual studio 2013\Projects\Laptop\Laptop\bin\Microsoft.Owin.Security.Twitter.xml
+c:\users\blackrose\documents\visual studio 2013\Projects\Laptop\Laptop\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+c:\users\blackrose\documents\visual studio 2013\Projects\Laptop\Laptop\obj\Debug\Laptop.dll
+c:\users\blackrose\documents\visual studio 2013\Projects\Laptop\Laptop\obj\Debug\Laptop.pdb
+C:\Users\BlackRose\documents\visual studio 2013\Projects\Laptop\Laptop\obj\Debug\Laptop.csprojResolveAssemblyReference.cache
+C:\Users\BlackRose\Documents\Visual Studio 2013\Projects\Laptop_v1\Laptop\Laptop\bin\Laptop.dll.config
+C:\Users\BlackRose\Documents\Visual Studio 2013\Projects\Laptop_v1\Laptop\Laptop\bin\Laptop.dll
+C:\Users\BlackRose\Documents\Visual Studio 2013\Projects\Laptop_v1\Laptop\Laptop\bin\Laptop.pdb
+C:\Users\BlackRose\Documents\Visual Studio 2013\Projects\Laptop_v1\Laptop\Laptop\bin\Antlr3.Runtime.dll
+C:\Users\BlackRose\Documents\Visual Studio 2013\Projects\Laptop_v1\Laptop\Laptop\bin\EntityFramework.dll
+C:\Users\BlackRose\Documents\Visual Studio 2013\Projects\Laptop_v1\Laptop\Laptop\bin\EntityFramework.SqlServer.dll
+C:\Users\BlackRose\Documents\Visual Studio 2013\Projects\Laptop_v1\Laptop\Laptop\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\BlackRose\Documents\Visual Studio 2013\Projects\Laptop_v1\Laptop\Laptop\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\BlackRose\Documents\Visual Studio 2013\Projects\Laptop_v1\Laptop\Laptop\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\BlackRose\Documents\Visual Studio 2013\Projects\Laptop_v1\Laptop\Laptop\bin\Microsoft.Owin.dll
+C:\Users\BlackRose\Documents\Visual Studio 2013\Projects\Laptop_v1\Laptop\Laptop\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\BlackRose\Documents\Visual Studio 2013\Projects\Laptop_v1\Laptop\Laptop\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\BlackRose\Documents\Visual Studio 2013\Projects\Laptop_v1\Laptop\Laptop\bin\Microsoft.Owin.Security.dll
+C:\Users\BlackRose\Documents\Visual Studio 2013\Projects\Laptop_v1\Laptop\Laptop\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\BlackRose\Documents\Visual Studio 2013\Projects\Laptop_v1\Laptop\Laptop\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\BlackRose\Documents\Visual Studio 2013\Projects\Laptop_v1\Laptop\Laptop\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\BlackRose\Documents\Visual Studio 2013\Projects\Laptop_v1\Laptop\Laptop\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\BlackRose\Documents\Visual Studio 2013\Projects\Laptop_v1\Laptop\Laptop\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\BlackRose\Documents\Visual Studio 2013\Projects\Laptop_v1\Laptop\Laptop\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\BlackRose\Documents\Visual Studio 2013\Projects\Laptop_v1\Laptop\Laptop\bin\Newtonsoft.Json.dll
+C:\Users\BlackRose\Documents\Visual Studio 2013\Projects\Laptop_v1\Laptop\Laptop\bin\Owin.dll
+C:\Users\BlackRose\Documents\Visual Studio 2013\Projects\Laptop_v1\Laptop\Laptop\bin\System.Web.Helpers.dll
+C:\Users\BlackRose\Documents\Visual Studio 2013\Projects\Laptop_v1\Laptop\Laptop\bin\System.Web.Mvc.dll
+C:\Users\BlackRose\Documents\Visual Studio 2013\Projects\Laptop_v1\Laptop\Laptop\bin\System.Web.Optimization.dll
+C:\Users\BlackRose\Documents\Visual Studio 2013\Projects\Laptop_v1\Laptop\Laptop\bin\System.Web.Razor.dll
+C:\Users\BlackRose\Documents\Visual Studio 2013\Projects\Laptop_v1\Laptop\Laptop\bin\System.Web.WebPages.Deployment.dll
+C:\Users\BlackRose\Documents\Visual Studio 2013\Projects\Laptop_v1\Laptop\Laptop\bin\System.Web.WebPages.dll
+C:\Users\BlackRose\Documents\Visual Studio 2013\Projects\Laptop_v1\Laptop\Laptop\bin\System.Web.WebPages.Razor.dll
+C:\Users\BlackRose\Documents\Visual Studio 2013\Projects\Laptop_v1\Laptop\Laptop\bin\WebGrease.dll
+C:\Users\BlackRose\Documents\Visual Studio 2013\Projects\Laptop_v1\Laptop\Laptop\bin\System.Web.Helpers.xml
+C:\Users\BlackRose\Documents\Visual Studio 2013\Projects\Laptop_v1\Laptop\Laptop\bin\System.Web.Mvc.xml
+C:\Users\BlackRose\Documents\Visual Studio 2013\Projects\Laptop_v1\Laptop\Laptop\bin\System.Web.Optimization.xml
+C:\Users\BlackRose\Documents\Visual Studio 2013\Projects\Laptop_v1\Laptop\Laptop\bin\System.Web.Razor.xml
+C:\Users\BlackRose\Documents\Visual Studio 2013\Projects\Laptop_v1\Laptop\Laptop\bin\System.Web.WebPages.xml
+C:\Users\BlackRose\Documents\Visual Studio 2013\Projects\Laptop_v1\Laptop\Laptop\bin\System.Web.WebPages.Deployment.xml
+C:\Users\BlackRose\Documents\Visual Studio 2013\Projects\Laptop_v1\Laptop\Laptop\bin\System.Web.WebPages.Razor.xml
+C:\Users\BlackRose\Documents\Visual Studio 2013\Projects\Laptop_v1\Laptop\Laptop\bin\Newtonsoft.Json.xml
+C:\Users\BlackRose\Documents\Visual Studio 2013\Projects\Laptop_v1\Laptop\Laptop\bin\Antlr3.Runtime.pdb
+C:\Users\BlackRose\Documents\Visual Studio 2013\Projects\Laptop_v1\Laptop\Laptop\bin\EntityFramework.xml
+C:\Users\BlackRose\Documents\Visual Studio 2013\Projects\Laptop_v1\Laptop\Laptop\bin\EntityFramework.SqlServer.xml
+C:\Users\BlackRose\Documents\Visual Studio 2013\Projects\Laptop_v1\Laptop\Laptop\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\BlackRose\Documents\Visual Studio 2013\Projects\Laptop_v1\Laptop\Laptop\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\BlackRose\Documents\Visual Studio 2013\Projects\Laptop_v1\Laptop\Laptop\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\BlackRose\Documents\Visual Studio 2013\Projects\Laptop_v1\Laptop\Laptop\bin\Microsoft.Owin.xml
+C:\Users\BlackRose\Documents\Visual Studio 2013\Projects\Laptop_v1\Laptop\Laptop\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\BlackRose\Documents\Visual Studio 2013\Projects\Laptop_v1\Laptop\Laptop\bin\Microsoft.Owin.Security.xml
+C:\Users\BlackRose\Documents\Visual Studio 2013\Projects\Laptop_v1\Laptop\Laptop\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\BlackRose\Documents\Visual Studio 2013\Projects\Laptop_v1\Laptop\Laptop\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\BlackRose\Documents\Visual Studio 2013\Projects\Laptop_v1\Laptop\Laptop\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\BlackRose\Documents\Visual Studio 2013\Projects\Laptop_v1\Laptop\Laptop\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\BlackRose\Documents\Visual Studio 2013\Projects\Laptop_v1\Laptop\Laptop\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\BlackRose\Documents\Visual Studio 2013\Projects\Laptop_v1\Laptop\Laptop\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\BlackRose\Documents\Visual Studio 2013\Projects\Laptop_v1\Laptop\Laptop\obj\Debug\Laptop.dll
+C:\Users\BlackRose\Documents\Visual Studio 2013\Projects\Laptop_v1\Laptop\Laptop\obj\Debug\Laptop.pdb
+C:\Users\BlackRose\Documents\Visual Studio 2013\Projects\Laptop_v1\Laptop\Laptop\bin\PagedList.dll
+C:\Users\BlackRose\Documents\Visual Studio 2013\Projects\Laptop_v1\Laptop\Laptop\bin\PagedList.Mvc.dll
+C:\Users\BlackRose\Documents\Visual Studio 2013\Projects\Laptop_v1\Laptop\Laptop\bin\PagedList.xml
+C:\Users\BlackRose\Documents\Visual Studio 2013\Projects\Laptop_v1\Laptop\Laptop\bin\PagedList.Mvc.xml
+C:\Users\BlackRose\Documents\Visual Studio 2013\Projects\Laptop_v1\Laptop\Laptop\bin\CaptchaMvc.dll
+C:\Users\BlackRose\Documents\Visual Studio 2013\Projects\Laptop_v1\Laptop\Laptop\bin\CaptchaMvc.pdb
+C:\Users\BlackRose\Documents\Visual Studio 2013\Projects\Laptop_v1\Laptop\Laptop\bin\CaptchaMvc.xml
+C:\Users\suker\Desktop\Laptop5_1\Laptop\Laptop\bin\Laptop.dll.config
+C:\Users\suker\Desktop\Laptop5_1\Laptop\Laptop\bin\Laptop.dll
+C:\Users\suker\Desktop\Laptop5_1\Laptop\Laptop\bin\Laptop.pdb
+C:\Users\suker\Desktop\Laptop5_1\Laptop\Laptop\bin\Antlr3.Runtime.dll
+C:\Users\suker\Desktop\Laptop5_1\Laptop\Laptop\bin\CaptchaMvc.dll
+C:\Users\suker\Desktop\Laptop5_1\Laptop\Laptop\bin\EntityFramework.dll
+C:\Users\suker\Desktop\Laptop5_1\Laptop\Laptop\bin\EntityFramework.SqlServer.dll
+C:\Users\suker\Desktop\Laptop5_1\Laptop\Laptop\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\suker\Desktop\Laptop5_1\Laptop\Laptop\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\suker\Desktop\Laptop5_1\Laptop\Laptop\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\suker\Desktop\Laptop5_1\Laptop\Laptop\bin\Microsoft.Owin.dll
+C:\Users\suker\Desktop\Laptop5_1\Laptop\Laptop\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\suker\Desktop\Laptop5_1\Laptop\Laptop\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\suker\Desktop\Laptop5_1\Laptop\Laptop\bin\Microsoft.Owin.Security.dll
+C:\Users\suker\Desktop\Laptop5_1\Laptop\Laptop\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\suker\Desktop\Laptop5_1\Laptop\Laptop\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\suker\Desktop\Laptop5_1\Laptop\Laptop\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\suker\Desktop\Laptop5_1\Laptop\Laptop\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\suker\Desktop\Laptop5_1\Laptop\Laptop\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\suker\Desktop\Laptop5_1\Laptop\Laptop\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\suker\Desktop\Laptop5_1\Laptop\Laptop\bin\Newtonsoft.Json.dll
+C:\Users\suker\Desktop\Laptop5_1\Laptop\Laptop\bin\Owin.dll
+C:\Users\suker\Desktop\Laptop5_1\Laptop\Laptop\bin\PagedList.dll
+C:\Users\suker\Desktop\Laptop5_1\Laptop\Laptop\bin\PagedList.Mvc.dll
+C:\Users\suker\Desktop\Laptop5_1\Laptop\Laptop\bin\System.Web.Helpers.dll
+C:\Users\suker\Desktop\Laptop5_1\Laptop\Laptop\bin\System.Web.Mvc.dll
+C:\Users\suker\Desktop\Laptop5_1\Laptop\Laptop\bin\System.Web.Optimization.dll
+C:\Users\suker\Desktop\Laptop5_1\Laptop\Laptop\bin\System.Web.Razor.dll
+C:\Users\suker\Desktop\Laptop5_1\Laptop\Laptop\bin\System.Web.WebPages.Deployment.dll
+C:\Users\suker\Desktop\Laptop5_1\Laptop\Laptop\bin\System.Web.WebPages.dll
+C:\Users\suker\Desktop\Laptop5_1\Laptop\Laptop\bin\System.Web.WebPages.Razor.dll
+C:\Users\suker\Desktop\Laptop5_1\Laptop\Laptop\bin\WebGrease.dll
+C:\Users\suker\Desktop\Laptop5_1\Laptop\Laptop\bin\CaptchaMvc.pdb
+C:\Users\suker\Desktop\Laptop5_1\Laptop\Laptop\bin\CaptchaMvc.xml
+C:\Users\suker\Desktop\Laptop5_1\Laptop\Laptop\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\suker\Desktop\Laptop5_1\Laptop\Laptop\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\suker\Desktop\Laptop5_1\Laptop\Laptop\bin\Microsoft.Owin.xml
+C:\Users\suker\Desktop\Laptop5_1\Laptop\Laptop\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\suker\Desktop\Laptop5_1\Laptop\Laptop\bin\Microsoft.Owin.Security.xml
+C:\Users\suker\Desktop\Laptop5_1\Laptop\Laptop\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\suker\Desktop\Laptop5_1\Laptop\Laptop\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\suker\Desktop\Laptop5_1\Laptop\Laptop\bin\PagedList.xml
+C:\Users\suker\Desktop\Laptop5_1\Laptop\Laptop\bin\PagedList.Mvc.xml
+C:\Users\suker\Desktop\Laptop5_1\Laptop\Laptop\bin\System.Web.Helpers.xml
+C:\Users\suker\Desktop\Laptop5_1\Laptop\Laptop\bin\System.Web.Mvc.xml
+C:\Users\suker\Desktop\Laptop5_1\Laptop\Laptop\bin\System.Web.Optimization.xml
+C:\Users\suker\Desktop\Laptop5_1\Laptop\Laptop\bin\System.Web.Razor.xml
+C:\Users\suker\Desktop\Laptop5_1\Laptop\Laptop\bin\System.Web.WebPages.xml
+C:\Users\suker\Desktop\Laptop5_1\Laptop\Laptop\bin\System.Web.WebPages.Deployment.xml
+C:\Users\suker\Desktop\Laptop5_1\Laptop\Laptop\bin\System.Web.WebPages.Razor.xml
+C:\Users\suker\Desktop\Laptop5_1\Laptop\Laptop\bin\Newtonsoft.Json.xml
+C:\Users\suker\Desktop\Laptop5_1\Laptop\Laptop\bin\Antlr3.Runtime.pdb
+C:\Users\suker\Desktop\Laptop5_1\Laptop\Laptop\bin\EntityFramework.xml
+C:\Users\suker\Desktop\Laptop5_1\Laptop\Laptop\bin\EntityFramework.SqlServer.xml
+C:\Users\suker\Desktop\Laptop5_1\Laptop\Laptop\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\suker\Desktop\Laptop5_1\Laptop\Laptop\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\suker\Desktop\Laptop5_1\Laptop\Laptop\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\suker\Desktop\Laptop5_1\Laptop\Laptop\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\suker\Desktop\Laptop5_1\Laptop\Laptop\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\suker\Desktop\Laptop5_1\Laptop\Laptop\obj\Debug\Laptop.dll
+C:\Users\suker\Desktop\Laptop5_1\Laptop\Laptop\obj\Debug\Laptop.pdb
+C:\Users\suker\Desktop\Laptop5_1\Laptop\Laptop\obj\Debug\Laptop.csprojResolveAssemblyReference.cache
+C:\Users\BlackRose\Documents\Visual Studio 2013\Projects\Hoang_V\New\Laptop8_1(tt)\Laptop\Laptop\bin\Laptop.dll.config
+C:\Users\BlackRose\Documents\Visual Studio 2013\Projects\Hoang_V\New\Laptop8_1(tt)\Laptop\Laptop\bin\Laptop.dll
+C:\Users\BlackRose\Documents\Visual Studio 2013\Projects\Hoang_V\New\Laptop8_1(tt)\Laptop\Laptop\bin\Laptop.pdb
+C:\Users\BlackRose\Documents\Visual Studio 2013\Projects\Hoang_V\New\Laptop8_1(tt)\Laptop\Laptop\bin\Antlr3.Runtime.dll
+C:\Users\BlackRose\Documents\Visual Studio 2013\Projects\Hoang_V\New\Laptop8_1(tt)\Laptop\Laptop\bin\CaptchaMvc.dll
+C:\Users\BlackRose\Documents\Visual Studio 2013\Projects\Hoang_V\New\Laptop8_1(tt)\Laptop\Laptop\bin\EntityFramework.dll
+C:\Users\BlackRose\Documents\Visual Studio 2013\Projects\Hoang_V\New\Laptop8_1(tt)\Laptop\Laptop\bin\EntityFramework.SqlServer.dll
+C:\Users\BlackRose\Documents\Visual Studio 2013\Projects\Hoang_V\New\Laptop8_1(tt)\Laptop\Laptop\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\BlackRose\Documents\Visual Studio 2013\Projects\Hoang_V\New\Laptop8_1(tt)\Laptop\Laptop\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\BlackRose\Documents\Visual Studio 2013\Projects\Hoang_V\New\Laptop8_1(tt)\Laptop\Laptop\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\BlackRose\Documents\Visual Studio 2013\Projects\Hoang_V\New\Laptop8_1(tt)\Laptop\Laptop\bin\Microsoft.Owin.dll
+C:\Users\BlackRose\Documents\Visual Studio 2013\Projects\Hoang_V\New\Laptop8_1(tt)\Laptop\Laptop\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\BlackRose\Documents\Visual Studio 2013\Projects\Hoang_V\New\Laptop8_1(tt)\Laptop\Laptop\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\BlackRose\Documents\Visual Studio 2013\Projects\Hoang_V\New\Laptop8_1(tt)\Laptop\Laptop\bin\Microsoft.Owin.Security.dll
+C:\Users\BlackRose\Documents\Visual Studio 2013\Projects\Hoang_V\New\Laptop8_1(tt)\Laptop\Laptop\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\BlackRose\Documents\Visual Studio 2013\Projects\Hoang_V\New\Laptop8_1(tt)\Laptop\Laptop\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\BlackRose\Documents\Visual Studio 2013\Projects\Hoang_V\New\Laptop8_1(tt)\Laptop\Laptop\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\BlackRose\Documents\Visual Studio 2013\Projects\Hoang_V\New\Laptop8_1(tt)\Laptop\Laptop\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\BlackRose\Documents\Visual Studio 2013\Projects\Hoang_V\New\Laptop8_1(tt)\Laptop\Laptop\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\BlackRose\Documents\Visual Studio 2013\Projects\Hoang_V\New\Laptop8_1(tt)\Laptop\Laptop\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\BlackRose\Documents\Visual Studio 2013\Projects\Hoang_V\New\Laptop8_1(tt)\Laptop\Laptop\bin\Newtonsoft.Json.dll
+C:\Users\BlackRose\Documents\Visual Studio 2013\Projects\Hoang_V\New\Laptop8_1(tt)\Laptop\Laptop\bin\Owin.dll
+C:\Users\BlackRose\Documents\Visual Studio 2013\Projects\Hoang_V\New\Laptop8_1(tt)\Laptop\Laptop\bin\PagedList.dll
+C:\Users\BlackRose\Documents\Visual Studio 2013\Projects\Hoang_V\New\Laptop8_1(tt)\Laptop\Laptop\bin\PagedList.Mvc.dll
+C:\Users\BlackRose\Documents\Visual Studio 2013\Projects\Hoang_V\New\Laptop8_1(tt)\Laptop\Laptop\bin\System.Web.Helpers.dll
+C:\Users\BlackRose\Documents\Visual Studio 2013\Projects\Hoang_V\New\Laptop8_1(tt)\Laptop\Laptop\bin\System.Web.Mvc.dll
+C:\Users\BlackRose\Documents\Visual Studio 2013\Projects\Hoang_V\New\Laptop8_1(tt)\Laptop\Laptop\bin\System.Web.Optimization.dll
+C:\Users\BlackRose\Documents\Visual Studio 2013\Projects\Hoang_V\New\Laptop8_1(tt)\Laptop\Laptop\bin\System.Web.Razor.dll
+C:\Users\BlackRose\Documents\Visual Studio 2013\Projects\Hoang_V\New\Laptop8_1(tt)\Laptop\Laptop\bin\System.Web.WebPages.Deployment.dll
+C:\Users\BlackRose\Documents\Visual Studio 2013\Projects\Hoang_V\New\Laptop8_1(tt)\Laptop\Laptop\bin\System.Web.WebPages.dll
+C:\Users\BlackRose\Documents\Visual Studio 2013\Projects\Hoang_V\New\Laptop8_1(tt)\Laptop\Laptop\bin\System.Web.WebPages.Razor.dll
+C:\Users\BlackRose\Documents\Visual Studio 2013\Projects\Hoang_V\New\Laptop8_1(tt)\Laptop\Laptop\bin\WebGrease.dll
+C:\Users\BlackRose\Documents\Visual Studio 2013\Projects\Hoang_V\New\Laptop8_1(tt)\Laptop\Laptop\bin\CaptchaMvc.pdb
+C:\Users\BlackRose\Documents\Visual Studio 2013\Projects\Hoang_V\New\Laptop8_1(tt)\Laptop\Laptop\bin\CaptchaMvc.xml
+C:\Users\BlackRose\Documents\Visual Studio 2013\Projects\Hoang_V\New\Laptop8_1(tt)\Laptop\Laptop\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\BlackRose\Documents\Visual Studio 2013\Projects\Hoang_V\New\Laptop8_1(tt)\Laptop\Laptop\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\BlackRose\Documents\Visual Studio 2013\Projects\Hoang_V\New\Laptop8_1(tt)\Laptop\Laptop\bin\Microsoft.Owin.xml
+C:\Users\BlackRose\Documents\Visual Studio 2013\Projects\Hoang_V\New\Laptop8_1(tt)\Laptop\Laptop\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\BlackRose\Documents\Visual Studio 2013\Projects\Hoang_V\New\Laptop8_1(tt)\Laptop\Laptop\bin\Microsoft.Owin.Security.xml
+C:\Users\BlackRose\Documents\Visual Studio 2013\Projects\Hoang_V\New\Laptop8_1(tt)\Laptop\Laptop\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\BlackRose\Documents\Visual Studio 2013\Projects\Hoang_V\New\Laptop8_1(tt)\Laptop\Laptop\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\BlackRose\Documents\Visual Studio 2013\Projects\Hoang_V\New\Laptop8_1(tt)\Laptop\Laptop\bin\PagedList.xml
+C:\Users\BlackRose\Documents\Visual Studio 2013\Projects\Hoang_V\New\Laptop8_1(tt)\Laptop\Laptop\bin\PagedList.Mvc.xml
+C:\Users\BlackRose\Documents\Visual Studio 2013\Projects\Hoang_V\New\Laptop8_1(tt)\Laptop\Laptop\bin\System.Web.Helpers.xml
+C:\Users\BlackRose\Documents\Visual Studio 2013\Projects\Hoang_V\New\Laptop8_1(tt)\Laptop\Laptop\bin\System.Web.Mvc.xml
+C:\Users\BlackRose\Documents\Visual Studio 2013\Projects\Hoang_V\New\Laptop8_1(tt)\Laptop\Laptop\bin\System.Web.Optimization.xml
+C:\Users\BlackRose\Documents\Visual Studio 2013\Projects\Hoang_V\New\Laptop8_1(tt)\Laptop\Laptop\bin\System.Web.Razor.xml
+C:\Users\BlackRose\Documents\Visual Studio 2013\Projects\Hoang_V\New\Laptop8_1(tt)\Laptop\Laptop\bin\System.Web.WebPages.xml
+C:\Users\BlackRose\Documents\Visual Studio 2013\Projects\Hoang_V\New\Laptop8_1(tt)\Laptop\Laptop\bin\System.Web.WebPages.Deployment.xml
+C:\Users\BlackRose\Documents\Visual Studio 2013\Projects\Hoang_V\New\Laptop8_1(tt)\Laptop\Laptop\bin\System.Web.WebPages.Razor.xml
+C:\Users\BlackRose\Documents\Visual Studio 2013\Projects\Hoang_V\New\Laptop8_1(tt)\Laptop\Laptop\bin\Newtonsoft.Json.xml
+C:\Users\BlackRose\Documents\Visual Studio 2013\Projects\Hoang_V\New\Laptop8_1(tt)\Laptop\Laptop\bin\Antlr3.Runtime.pdb
+C:\Users\BlackRose\Documents\Visual Studio 2013\Projects\Hoang_V\New\Laptop8_1(tt)\Laptop\Laptop\bin\EntityFramework.xml
+C:\Users\BlackRose\Documents\Visual Studio 2013\Projects\Hoang_V\New\Laptop8_1(tt)\Laptop\Laptop\bin\EntityFramework.SqlServer.xml
+C:\Users\BlackRose\Documents\Visual Studio 2013\Projects\Hoang_V\New\Laptop8_1(tt)\Laptop\Laptop\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\BlackRose\Documents\Visual Studio 2013\Projects\Hoang_V\New\Laptop8_1(tt)\Laptop\Laptop\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\BlackRose\Documents\Visual Studio 2013\Projects\Hoang_V\New\Laptop8_1(tt)\Laptop\Laptop\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\BlackRose\Documents\Visual Studio 2013\Projects\Hoang_V\New\Laptop8_1(tt)\Laptop\Laptop\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\BlackRose\Documents\Visual Studio 2013\Projects\Hoang_V\New\Laptop8_1(tt)\Laptop\Laptop\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\BlackRose\Documents\Visual Studio 2013\Projects\Hoang_V\New\Laptop8_1(tt)\Laptop\Laptop\obj\Debug\Laptop.csprojResolveAssemblyReference.cache
+C:\Users\BlackRose\Documents\Visual Studio 2013\Projects\Hoang_V\New\Laptop8_1(tt)\Laptop\Laptop\obj\Debug\Laptop.dll
+C:\Users\BlackRose\Documents\Visual Studio 2013\Projects\Hoang_V\New\Laptop8_1(tt)\Laptop\Laptop\obj\Debug\Laptop.pdb
+D:\Scientific research\Reference\LaptopOnline\SRC\Laptop\Laptop\bin\Laptop.dll.config
+D:\Scientific research\Reference\LaptopOnline\SRC\Laptop\Laptop\bin\Laptop.dll
+D:\Scientific research\Reference\LaptopOnline\SRC\Laptop\Laptop\bin\Laptop.pdb
+D:\Scientific research\Reference\LaptopOnline\SRC\Laptop\Laptop\bin\Antlr3.Runtime.dll
+D:\Scientific research\Reference\LaptopOnline\SRC\Laptop\Laptop\bin\CaptchaMvc.dll
+D:\Scientific research\Reference\LaptopOnline\SRC\Laptop\Laptop\bin\EntityFramework.dll
+D:\Scientific research\Reference\LaptopOnline\SRC\Laptop\Laptop\bin\EntityFramework.SqlServer.dll
+D:\Scientific research\Reference\LaptopOnline\SRC\Laptop\Laptop\bin\Microsoft.AspNet.Identity.Core.dll
+D:\Scientific research\Reference\LaptopOnline\SRC\Laptop\Laptop\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+D:\Scientific research\Reference\LaptopOnline\SRC\Laptop\Laptop\bin\Microsoft.AspNet.Identity.Owin.dll
+D:\Scientific research\Reference\LaptopOnline\SRC\Laptop\Laptop\bin\Microsoft.Owin.dll
+D:\Scientific research\Reference\LaptopOnline\SRC\Laptop\Laptop\bin\Microsoft.Owin.Host.SystemWeb.dll
+D:\Scientific research\Reference\LaptopOnline\SRC\Laptop\Laptop\bin\Microsoft.Owin.Security.Cookies.dll
+D:\Scientific research\Reference\LaptopOnline\SRC\Laptop\Laptop\bin\Microsoft.Owin.Security.dll
+D:\Scientific research\Reference\LaptopOnline\SRC\Laptop\Laptop\bin\Microsoft.Owin.Security.Facebook.dll
+D:\Scientific research\Reference\LaptopOnline\SRC\Laptop\Laptop\bin\Microsoft.Owin.Security.Google.dll
+D:\Scientific research\Reference\LaptopOnline\SRC\Laptop\Laptop\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+D:\Scientific research\Reference\LaptopOnline\SRC\Laptop\Laptop\bin\Microsoft.Owin.Security.OAuth.dll
+D:\Scientific research\Reference\LaptopOnline\SRC\Laptop\Laptop\bin\Microsoft.Owin.Security.Twitter.dll
+D:\Scientific research\Reference\LaptopOnline\SRC\Laptop\Laptop\bin\Microsoft.Web.Infrastructure.dll
+D:\Scientific research\Reference\LaptopOnline\SRC\Laptop\Laptop\bin\Newtonsoft.Json.dll
+D:\Scientific research\Reference\LaptopOnline\SRC\Laptop\Laptop\bin\Owin.dll
+D:\Scientific research\Reference\LaptopOnline\SRC\Laptop\Laptop\bin\PagedList.dll
+D:\Scientific research\Reference\LaptopOnline\SRC\Laptop\Laptop\bin\PagedList.Mvc.dll
+D:\Scientific research\Reference\LaptopOnline\SRC\Laptop\Laptop\bin\System.Web.Helpers.dll
+D:\Scientific research\Reference\LaptopOnline\SRC\Laptop\Laptop\bin\System.Web.Mvc.dll
+D:\Scientific research\Reference\LaptopOnline\SRC\Laptop\Laptop\bin\System.Web.Optimization.dll
+D:\Scientific research\Reference\LaptopOnline\SRC\Laptop\Laptop\bin\System.Web.Razor.dll
+D:\Scientific research\Reference\LaptopOnline\SRC\Laptop\Laptop\bin\System.Web.WebPages.Deployment.dll
+D:\Scientific research\Reference\LaptopOnline\SRC\Laptop\Laptop\bin\System.Web.WebPages.dll
+D:\Scientific research\Reference\LaptopOnline\SRC\Laptop\Laptop\bin\System.Web.WebPages.Razor.dll
+D:\Scientific research\Reference\LaptopOnline\SRC\Laptop\Laptop\bin\WebGrease.dll
+D:\Scientific research\Reference\LaptopOnline\SRC\Laptop\Laptop\bin\CaptchaMvc.pdb
+D:\Scientific research\Reference\LaptopOnline\SRC\Laptop\Laptop\bin\CaptchaMvc.xml
+D:\Scientific research\Reference\LaptopOnline\SRC\Laptop\Laptop\bin\Microsoft.AspNet.Identity.Core.xml
+D:\Scientific research\Reference\LaptopOnline\SRC\Laptop\Laptop\bin\Microsoft.AspNet.Identity.Owin.xml
+D:\Scientific research\Reference\LaptopOnline\SRC\Laptop\Laptop\bin\Microsoft.Owin.xml
+D:\Scientific research\Reference\LaptopOnline\SRC\Laptop\Laptop\bin\Microsoft.Owin.Host.SystemWeb.xml
+D:\Scientific research\Reference\LaptopOnline\SRC\Laptop\Laptop\bin\Microsoft.Owin.Security.xml
+D:\Scientific research\Reference\LaptopOnline\SRC\Laptop\Laptop\bin\Microsoft.Owin.Security.Cookies.xml
+D:\Scientific research\Reference\LaptopOnline\SRC\Laptop\Laptop\bin\Microsoft.Owin.Security.OAuth.xml
+D:\Scientific research\Reference\LaptopOnline\SRC\Laptop\Laptop\bin\PagedList.xml
+D:\Scientific research\Reference\LaptopOnline\SRC\Laptop\Laptop\bin\PagedList.Mvc.xml
+D:\Scientific research\Reference\LaptopOnline\SRC\Laptop\Laptop\bin\System.Web.Helpers.xml
+D:\Scientific research\Reference\LaptopOnline\SRC\Laptop\Laptop\bin\System.Web.Mvc.xml
+D:\Scientific research\Reference\LaptopOnline\SRC\Laptop\Laptop\bin\System.Web.Optimization.xml
+D:\Scientific research\Reference\LaptopOnline\SRC\Laptop\Laptop\bin\System.Web.Razor.xml
+D:\Scientific research\Reference\LaptopOnline\SRC\Laptop\Laptop\bin\System.Web.WebPages.xml
+D:\Scientific research\Reference\LaptopOnline\SRC\Laptop\Laptop\bin\System.Web.WebPages.Deployment.xml
+D:\Scientific research\Reference\LaptopOnline\SRC\Laptop\Laptop\bin\System.Web.WebPages.Razor.xml
+D:\Scientific research\Reference\LaptopOnline\SRC\Laptop\Laptop\bin\Newtonsoft.Json.xml
+D:\Scientific research\Reference\LaptopOnline\SRC\Laptop\Laptop\bin\Antlr3.Runtime.pdb
+D:\Scientific research\Reference\LaptopOnline\SRC\Laptop\Laptop\bin\EntityFramework.xml
+D:\Scientific research\Reference\LaptopOnline\SRC\Laptop\Laptop\bin\EntityFramework.SqlServer.xml
+D:\Scientific research\Reference\LaptopOnline\SRC\Laptop\Laptop\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+D:\Scientific research\Reference\LaptopOnline\SRC\Laptop\Laptop\bin\Microsoft.Owin.Security.Facebook.xml
+D:\Scientific research\Reference\LaptopOnline\SRC\Laptop\Laptop\bin\Microsoft.Owin.Security.Google.xml
+D:\Scientific research\Reference\LaptopOnline\SRC\Laptop\Laptop\bin\Microsoft.Owin.Security.Twitter.xml
+D:\Scientific research\Reference\LaptopOnline\SRC\Laptop\Laptop\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+D:\Scientific research\Reference\LaptopOnline\SRC\Laptop\Laptop\obj\Debug\Laptop.csprojResolveAssemblyReference.cache
+D:\Scientific research\Reference\LaptopOnline\SRC\Laptop\Laptop\obj\Debug\Laptop.dll
+D:\Scientific research\Reference\LaptopOnline\SRC\Laptop\Laptop\obj\Debug\Laptop.pdb
+C:\VSProjects\LaptopOnline\SRC\Laptop\Laptop\bin\Laptop.dll.config
+C:\VSProjects\LaptopOnline\SRC\Laptop\Laptop\bin\Laptop.dll
+C:\VSProjects\LaptopOnline\SRC\Laptop\Laptop\bin\Laptop.pdb
+C:\VSProjects\LaptopOnline\SRC\Laptop\Laptop\bin\Antlr3.Runtime.dll
+C:\VSProjects\LaptopOnline\SRC\Laptop\Laptop\bin\CaptchaMvc.dll
+C:\VSProjects\LaptopOnline\SRC\Laptop\Laptop\bin\EntityFramework.dll
+C:\VSProjects\LaptopOnline\SRC\Laptop\Laptop\bin\EntityFramework.SqlServer.dll
+C:\VSProjects\LaptopOnline\SRC\Laptop\Laptop\bin\Microsoft.AspNet.Identity.Core.dll
+C:\VSProjects\LaptopOnline\SRC\Laptop\Laptop\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\VSProjects\LaptopOnline\SRC\Laptop\Laptop\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\VSProjects\LaptopOnline\SRC\Laptop\Laptop\bin\Microsoft.Owin.dll
+C:\VSProjects\LaptopOnline\SRC\Laptop\Laptop\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\VSProjects\LaptopOnline\SRC\Laptop\Laptop\bin\Microsoft.Owin.Security.Cookies.dll
+C:\VSProjects\LaptopOnline\SRC\Laptop\Laptop\bin\Microsoft.Owin.Security.dll
+C:\VSProjects\LaptopOnline\SRC\Laptop\Laptop\bin\Microsoft.Owin.Security.Facebook.dll
+C:\VSProjects\LaptopOnline\SRC\Laptop\Laptop\bin\Microsoft.Owin.Security.Google.dll
+C:\VSProjects\LaptopOnline\SRC\Laptop\Laptop\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\VSProjects\LaptopOnline\SRC\Laptop\Laptop\bin\Microsoft.Owin.Security.OAuth.dll
+C:\VSProjects\LaptopOnline\SRC\Laptop\Laptop\bin\Microsoft.Owin.Security.Twitter.dll
+C:\VSProjects\LaptopOnline\SRC\Laptop\Laptop\bin\Microsoft.Web.Infrastructure.dll
+C:\VSProjects\LaptopOnline\SRC\Laptop\Laptop\bin\Newtonsoft.Json.dll
+C:\VSProjects\LaptopOnline\SRC\Laptop\Laptop\bin\Owin.dll
+C:\VSProjects\LaptopOnline\SRC\Laptop\Laptop\bin\PagedList.dll
+C:\VSProjects\LaptopOnline\SRC\Laptop\Laptop\bin\PagedList.Mvc.dll
+C:\VSProjects\LaptopOnline\SRC\Laptop\Laptop\bin\System.Web.Helpers.dll
+C:\VSProjects\LaptopOnline\SRC\Laptop\Laptop\bin\System.Web.Mvc.dll
+C:\VSProjects\LaptopOnline\SRC\Laptop\Laptop\bin\System.Web.Optimization.dll
+C:\VSProjects\LaptopOnline\SRC\Laptop\Laptop\bin\System.Web.Razor.dll
+C:\VSProjects\LaptopOnline\SRC\Laptop\Laptop\bin\System.Web.WebPages.Deployment.dll
+C:\VSProjects\LaptopOnline\SRC\Laptop\Laptop\bin\System.Web.WebPages.dll
+C:\VSProjects\LaptopOnline\SRC\Laptop\Laptop\bin\System.Web.WebPages.Razor.dll
+C:\VSProjects\LaptopOnline\SRC\Laptop\Laptop\bin\WebGrease.dll
+C:\VSProjects\LaptopOnline\SRC\Laptop\Laptop\bin\CaptchaMvc.pdb
+C:\VSProjects\LaptopOnline\SRC\Laptop\Laptop\bin\CaptchaMvc.xml
+C:\VSProjects\LaptopOnline\SRC\Laptop\Laptop\bin\Microsoft.AspNet.Identity.Core.xml
+C:\VSProjects\LaptopOnline\SRC\Laptop\Laptop\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\VSProjects\LaptopOnline\SRC\Laptop\Laptop\bin\Microsoft.Owin.xml
+C:\VSProjects\LaptopOnline\SRC\Laptop\Laptop\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\VSProjects\LaptopOnline\SRC\Laptop\Laptop\bin\Microsoft.Owin.Security.xml
+C:\VSProjects\LaptopOnline\SRC\Laptop\Laptop\bin\Microsoft.Owin.Security.Cookies.xml
+C:\VSProjects\LaptopOnline\SRC\Laptop\Laptop\bin\Microsoft.Owin.Security.OAuth.xml
+C:\VSProjects\LaptopOnline\SRC\Laptop\Laptop\bin\PagedList.xml
+C:\VSProjects\LaptopOnline\SRC\Laptop\Laptop\bin\PagedList.Mvc.xml
+C:\VSProjects\LaptopOnline\SRC\Laptop\Laptop\bin\System.Web.Helpers.xml
+C:\VSProjects\LaptopOnline\SRC\Laptop\Laptop\bin\System.Web.Mvc.xml
+C:\VSProjects\LaptopOnline\SRC\Laptop\Laptop\bin\System.Web.Optimization.xml
+C:\VSProjects\LaptopOnline\SRC\Laptop\Laptop\bin\System.Web.Razor.xml
+C:\VSProjects\LaptopOnline\SRC\Laptop\Laptop\bin\System.Web.WebPages.xml
+C:\VSProjects\LaptopOnline\SRC\Laptop\Laptop\bin\System.Web.WebPages.Deployment.xml
+C:\VSProjects\LaptopOnline\SRC\Laptop\Laptop\bin\System.Web.WebPages.Razor.xml
+C:\VSProjects\LaptopOnline\SRC\Laptop\Laptop\bin\Newtonsoft.Json.xml
+C:\VSProjects\LaptopOnline\SRC\Laptop\Laptop\bin\Antlr3.Runtime.pdb
+C:\VSProjects\LaptopOnline\SRC\Laptop\Laptop\bin\EntityFramework.xml
+C:\VSProjects\LaptopOnline\SRC\Laptop\Laptop\bin\EntityFramework.SqlServer.xml
+C:\VSProjects\LaptopOnline\SRC\Laptop\Laptop\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\VSProjects\LaptopOnline\SRC\Laptop\Laptop\bin\Microsoft.Owin.Security.Facebook.xml
+C:\VSProjects\LaptopOnline\SRC\Laptop\Laptop\bin\Microsoft.Owin.Security.Google.xml
+C:\VSProjects\LaptopOnline\SRC\Laptop\Laptop\bin\Microsoft.Owin.Security.Twitter.xml
+C:\VSProjects\LaptopOnline\SRC\Laptop\Laptop\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\VSProjects\LaptopOnline\SRC\Laptop\Laptop\obj\Debug\Laptop.csprojResolveAssemblyReference.cache
+C:\VSProjects\LaptopOnline\SRC\Laptop\Laptop\obj\Debug\Laptop.dll
+C:\VSProjects\LaptopOnline\SRC\Laptop\Laptop\obj\Debug\Laptop.pdb

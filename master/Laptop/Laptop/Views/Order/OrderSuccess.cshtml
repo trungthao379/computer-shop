@@ -1,0 +1,83 @@
+﻿@model Laptop.ViewModels.ShoppingCartViewModel
+@{
+    ViewBag.Title = "OrderSuccess";
+    Layout = "~/Views/Shared/Layout1.cshtml";
+}
+
+<div class="panel panel-primary">
+    <div class="panel-heading al-center">
+        <h2 class="bold c-w">Đặt hàng thành công</h2><br />
+    </div>
+    <div class="panel-body">
+        <div class="row mg-30">
+            <div class="row al-center">
+                <h4 class="bold">Cám ơn quý khách hàng đã sử dụng dịch vụ của chúng tôi</h4>
+                <hr />
+            </div>
+            <div class="row">
+                <h3 class="bold">Đây là đơn đặt hàng  của quý khách</h3>
+                <hr />
+            </div>
+            <div class="row">
+                <div class="row mg-30">
+                    <p>Khách Hàng: @Model.Name</p><br />
+                    <hr />
+                    <p>Ngày đặt hàng: @Model.OrderDate</p><br />
+                    <p>Ngày giao hàng: @Model.ShipDate</p>
+                    <hr />
+                </div>
+                <div class="row mg-30">
+                    <table class="table table-hover table-responsive">
+                        <tr>
+                            <th style="border-top-style:none;font-size:20px">
+                                Tên sản phẩm
+                            </th>
+                            <th style="border-top-style: none; font-size: 20px">
+                                Đơn giá
+                            </th>
+                            <th style="border-top-style: none; font-size: 20px">
+                                Số lượng
+                            </th>
+                        </tr>
+
+                        @foreach (var item in Model.CartItems)
+                        {
+                            <tr id="row-@item.RecordId">
+                                <td class="bold">
+                                    @item.Product.productName
+                                </td>
+                                <td>
+                                    @item.Product.unitPrice VND
+                                </td>
+                                <td id="item-count-@item.RecordId">
+                                    @item.Count
+                                </td>
+                            </tr>
+                        }
+                        <tr>
+                            <td>
+                                Tổng số tiền:
+                            </td>
+                            <td></td>
+                            <td></td>
+                            <td id="cart-total">
+                                @Model.CartTotal VND
+                            </td>
+                        </tr>
+                    </table>
+
+                </div>
+                <div class="row al-center">
+                    <p class="c-dan">Thông tin đơn đặt hàng đã được gửi qua mail của khách hàng</p>
+                </div>
+                <div class="row mg-30">
+                    <div class="col-md-4 col-md-offset-4">
+                        @Html.ActionLink("Quay về giỏ hàng", "Index", "Shopping", null, new { @class = "btn btn-block btn-default" })
+                    </div>
+                </div>
+            </div>
+        </div> 
+    </div>
+</div>
+
+

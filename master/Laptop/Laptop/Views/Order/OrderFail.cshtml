@@ -1,0 +1,26 @@
+﻿@model Laptop.Cart
+
+@{
+    ViewBag.Title = "OrderFail";
+    Layout = "~/Views/Shared/Layout1.cshtml";
+}
+
+
+<div class="panel panel-primary">
+    <div class="panel-heading">
+        <h2 class="c-w">Đặt hàng không thành công</h2>
+    </div>
+    <div class="panel-body">
+        <div class="row mg-30">
+            <p>
+                @Model.Product.productName hiện tại chỉ còn @Model.Product.quantity sản phẩm không đủ đáp ứng cho quý khách mong quý khách thông cảm.
+            </p>
+        </div>
+        <div class="row mg-30">
+            <div class="col-md-4 col-md-offset-4">
+                @Html.ActionLink("Quay về giỏ hàng","Index","Shopping",null,new{@class="btn btn-block btn-default"})
+            </div>
+        </div> 
+    </div>
+</div>
+

@@ -1,0 +1,123 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="" />
+    <title>Admin</title>
+    <link href="~/css/bootstrap.min.css" rel="stylesheet">
+    @*<link href="~/css/plugins/metisMenu/metisMenu.min.css" rel="stylesheet">*@
+
+    <!-- DataTables CSS -->
+    <link href="~/css/plugins/dataTables.bootstrap.css" rel="stylesheet">
+</head>
+<body>
+    <div class="navbar navbar-default navbar-fixed-top">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                @Html.ActionLink("Hoàng Phương Computer", "Index", "ManageProduct", null, new { @class = "navbar-brand" })
+            </div>
+            <div class="navbar-collapse collapse">
+                <ul class="nav navbar-nav navbar-right">
+                    @Html.Partial("_LoginPartial")
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="panel" style="height:60px">
+        &nbsp;
+    </div>
+    <!--Phần nội dung chính của trang chủ-->
+    <div class="row mg-t-150">
+        <div class="col-md-1"></div>
+
+        <!--Thanh thao tác bên trái-->
+        <div class="col-md-2">
+            <div class="left-sidebar mg-t-70">
+                <!--Danh mục quản lý-->
+                <div class="panel panel-primary">
+                    <div class="panel-heading">
+                        <div class="row">
+                            <span class="f-s">Danh mục quản lý</span>
+                        </div>
+                    </div>
+                    <div class="panel-body">
+                        <div class="row">
+                            <ul class="nav nav-pills nav-stacked">
+                                <li>@Html.ActionLink("Quản lý sản phẩm", "Index", "ManageProduct")</li>
+                                <li>@Html.ActionLink("Quản lý CPU", "Index", "ManageCPU")</li>
+                                <li>@Html.ActionLink("Quản lý đĩa cứng", "Index", "ManageHardDrive")</li>
+                                <li>@Html.ActionLink("Quản lý màn hình", "Index", "ManageScreen")</li>
+                                <li>@Html.ActionLink("Quản lý đồ họa", "Index", "ManageGraphic")</li>
+                                <li>@Html.ActionLink("Quản lý thương hiệu", "Index", "ManageManufacturer")</li>
+                                <li>@Html.ActionLink("Quản lý hóa đơn", "Index", "ManageOrder")</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div><!--Hết danh mục quản lý-->
+        </div>
+
+        <!--Hết thanh thao tác bên trái-->
+        <!--Nội dung hiển thị-->
+        <div class="col-md-8">
+            <div class="panel panel-primary">
+                <div class="panel-heading al-center">
+                    <h2 class="c-w" id="title1">
+                        @ViewBag.Heading
+                    </h2>
+                </div>
+                <div class="panel-body">
+                    @RenderBody()
+                </div>
+            </div>
+        </div>
+        <!--Hết phần nội dung hiển thị-->
+
+        <div class="col-md-1"></div>
+    </div>
+    <!--Hết phần nội dung chính của trang chủ-->
+    <!--Phần footer-->
+    <div class="panel panel-default">
+        <div class="panel-body">
+            <div class="col-md-10 col-md-offset-1 mg-1  al-center">
+                <p>&copy; @DateTime.Now.Year - Hoàng Phương Computer</p>
+            </div>
+        </div>
+    </div>
+    <!--Hết footer-->
+
+
+    <script src="~/Scripts/jquery-1.10.2.min.js"></script>
+    <script type="text/javascript">
+
+    </script>
+
+
+
+    <script src="~/js/bootstrap.min.js"></script>
+
+
+    @*<script src="~/js/plugins/metisMenu/metisMenu.min.js"></script>*@
+
+    <!-- DataTables JavaScript -->
+    <script src="~/js/plugins/dataTables/jquery.dataTables.js"></script>
+    <script src="~/js/plugins/dataTables/dataTables.bootstrap.js"></script>
+
+    <!-- Custom Theme JavaScript -->
+
+    <script>
+        $(document).ready(function () {
+            $('#dataTables-example').dataTable();
+        });
+    </script>
+</body>
+</html>

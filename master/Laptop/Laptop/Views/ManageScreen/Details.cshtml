@@ -1,0 +1,75 @@
+﻿@model Laptop.Models.Screen
+
+@{
+    ViewBag.Title = "Details";
+    Layout = "~/Views/Shared/AdminLayout.cshtml";
+}
+
+<div class="row mg-10 al-center">
+    <h2 class="c-pri">Chi tiết sản phẩm</h2>
+    <h4 class="bold">@Html.DisplayFor(model => model.screenName)</h4>
+    <hr />
+</div>
+<div class="row mg-10">
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.screenName)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.screenName)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.manufacturer)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.manufacturer)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.size)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.size)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.touchScreen)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.touchScreen)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.resolution)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.resolution)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.isNoLonger)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.isNoLonger)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.type)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.type)
+        </dd>
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Cập nhật", "Edit", new { id = Model.screenID }) |
+    @Html.ActionLink("Trở về", "Index")
+</p>

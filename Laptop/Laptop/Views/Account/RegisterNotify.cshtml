@@ -1,0 +1,22 @@
+﻿
+@{
+    ViewBag.Title = "RegisterNotify";
+    Layout = "~/Views/Shared/Layout1.cshtml";
+}
+
+<div class="row mg-30">
+    <div class="panel-group">
+        <div class="panel panel-primary">
+            <div class="panel-heading al-center">
+                <h3>Đăng ký</h3>
+            </div>
+            <div class="panel-body">
+                <div class="row mg-10 al-center">
+                    <p>Đăng ký thành công! Hãy vào <a href="https://mail.google.com">gmail</a> 
+                    hoặc <a href="http://www.mail.yahoo.com">yahoo mail</a> để kích hoạt tài khoản của bạn.</p>
+                    @Html.ActionLink("Về trang chủ", "Browse", "Account")
+                </div>
+            </div>
+        </div>
+    </div>
+</div>  

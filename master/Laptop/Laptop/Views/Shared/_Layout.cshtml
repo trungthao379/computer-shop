@@ -1,0 +1,224 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewBag.Title - Hoàng Phương Computer</title>
+    @Styles.Render("~/Content/css")
+    @Scripts.Render("~/bundles/modernizr")
+
+</head>
+<body>
+    <div class="navbar navbar-default navbar-fixed-top">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                @Html.ActionLink("Hoàng Phương Computer", "ShowNewProduct", "Show", null, new { @class = "navbar-brand" })
+            </div>
+            <div class="navbar-collapse collapse">
+                <ul class="nav navbar-nav">
+                    <li>@Html.ActionLink("Trang chủ", "Index", "Service")</li>
+                    <li>@Html.ActionLink("Giới thiệu", "About", "Service")</li>
+                    <li>@Html.ActionLink("Hỗ trợ", "Contact", "Service")</li>
+                </ul>
+                <ul class="nav navbar-nav navbar-right">
+                    @{Html.RenderAction("CartSummary", "Shopping");}
+                    @Html.Partial("_LoginPartial")                   
+                </ul>               
+            </div>
+        </div>
+    </div>
+    <div class="panel panel-body">
+        <div class="row">
+            <div class="col-md-1 col-md-offset-4">
+                <img src="/Images/Logo/Logo_64.png" alt="Logo"/>
+            </div> 
+            <div class="col-md-2 al-center">
+                <h3 class="c-violet">
+                    Hoàng Phương Computer
+                </h3>
+            </div>          
+        </div>
+        <div class="row">
+            <hr />
+        </div>     
+    </div>
+    <!--Panel chính-->
+    <div class="row mg-t-70" id="top">
+        <div class="col-md-6 col-md-offset-3">
+            @{Html.RenderAction("ShowNew","Show");}
+        </div>
+    </div>
+    <!--Hết panel-->
+
+    <!--Phần nội dung chính của trang chủ-->
+    <div class="row mg-30">
+        <div class="col-md-1"></div>
+
+        <!--Thanh thao tác bên trái-->
+        <div class="col-md-3">
+            <div class="left-sidebar">
+                <!--Thanh search-->
+                <div class="panel-group category-products" id="accordian">
+                    <div class="panel panel-primary">
+                        <div class="panel-heading">
+                            <h4 class="panel-title">
+                                <a data-toggle="collapse" data-parent="#accordian" href="#search" class="f-s">
+                                    Bạn muốn tìm gì?
+                                </a>
+                            </h4>
+                        </div>
+                        <div id="search" class="panel-collapse collapse">
+                            <div class="panel-body">
+                                <div class="row mg-10">
+                                    @using (Html.BeginForm("Index", "Search", FormMethod.Get))
+                                    {
+                                        <div class="row mg-5">
+                                            <div class="col-md-4">
+                                                <label>Tên sản phẩm:</label>
+                                            </div>
+                                            <div class="col-md-8">
+                                                @Html.TextBox("SearchString", ViewData["SearchString"] as List<SelectListItem>, new { @class = "form-control" })
+                                            </div>      
+                                        </div>
+                                        <hr />
+                                        <div class="row mg-5">
+                                            <div class="col-md-4">
+                                                <label>Thương hiệu: </label>
+                                            </div>
+                                            <div class="col-md-8">
+                                                @Html.DropDownList("Manufacturer", ViewData["Manufacturer"] as List<SelectListItem>, "Tất cả thương hiệu", new { @class = "form-control" })
+                                            </div>     
+                                        </div>
+                                        <hr />
+                                        
+                                        <div class="row mg-5">
+                                            <div class="col-md-4">
+                                                <label>Giá:</label>
+                                            </div>
+                                            <div class="col-md-8">
+                                                @Html.DropDownList("Cost", ViewData["cost"] as List<SelectListItem>,"Tất cả giá", new { @class = "form-control" })
+                                            </div>    
+                                        </div>
+                                        <hr />
+                                        
+                                        <div class="row mg-5">
+                                            <div class="col-md-4">
+                                                <label>CPU:</label>
+                                            </div>
+                                            <div class="col-md-8">
+                                                @Html.DropDownList("CPU", ViewData["CPU"] as List<SelectListItem>,"Tất cả CPU", new { @class = "form-control" })
+                                            </div>    
+                                        </div>
+                                        <hr />
+                                        
+                                        <div class="row mg-5">
+                                            <div class="col-md-4">
+                                                <label>Màn hình:</label>
+                                            </div>
+                                            <div class="col-md-8">
+                                                @Html.DropDownList("Screen", ViewData["Screen"] as List<SelectListItem>,"Tất cả loại màn hình", new { @class = "form-control" })
+                                            </div>    
+                                        </div>
+                                        <hr />
+                                        
+                                        <div class="row mg-5">
+                                            <div class="col-md-4">
+                                                <label>RAM:</label>
+                                            </div>
+                                            <div class="col-md-8">
+                                                @Html.DropDownList("RAM", ViewData["RAM"] as List<SelectListItem>,"Tất cả loại RAM", new { @class = "form-control" })
+                                            </div>    
+                                        </div>
+                                        <hr />
+                                        
+                                        <div class="row mg-5">
+                                            <div class="col-md-4">
+                                                <label>Card đồ họa:</label>
+                                            </div>
+                                            <div class="col-md-8">
+                                                @Html.DropDownList("Graphic", ViewData["Graphic"] as List<SelectListItem>, "Tất cả loại Card đồ họa", new { @class = "form-control" })
+                                            </div>    
+                                        </div>
+                                        <hr />
+                                        
+                                        <div class="row mg-5">
+                                            <div class="col-md-4">
+                                                <label>Dung lượng:</label>
+                                            </div>
+                                            <div class="col-md-8">
+                                                @Html.DropDownList("HardDrive", ViewData["HardDrive"] as List<SelectListItem>, "Tất cả dung lượng", new { @class = "form-control" })
+                                            </div>    
+                                        </div>
+                                        <hr />
+                                        
+                                        <div class="row mg-5">
+                                            <div class="col-md-8 col-md-offset-2">
+                                                <input type="submit" value="Tìm" class="btn btn-primary btn-block" />
+                                            </div>
+                                        </div>
+                                    }
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div><!--Hết thanh search-->
+
+            <!--Giỏ hàng-->
+            <div class="left-sidebar mg-t-10">
+                <div class="panel panel-primary">
+                    <div class="panel-heading al-center">
+                        <p class="f-s">Hàng bán chạy</p>
+                    </div>
+                    <div class="panel-body">
+                        <div class="row">
+                            @{Html.RenderAction("ShowHot", "Show");} <!--Thanh quảng cáo sản phẩm mới-->
+                        </div>
+                    </div>
+                </div>
+            </div><!--Hết giỏ hàng-->
+           
+        </div>
+        <!--Hết thanh thao tác bên trái-->
+        <!--Nội dung hiển thị-->
+        <div class="col-md-7">
+            @RenderBody()
+        </div>
+        <!--Hết phần nội dung hiển thị-->
+
+        <div class="col-md-1"></div>
+    </div>
+    <!--Hết phần nội dung chính của trang chủ-->
+    <!--Phần footer-->
+    <div class="panel panel-default">
+        <div class="panel-body">
+            <div class="col-md-10 col-md-offset-1 mg-1">
+                <div class="col-md-5 al-center">
+                    <footer class="nav-justified">
+                        <p>&copy; @DateTime.Now.Year - Hoàng Phương Computer</p>
+                    </footer>
+                </div>
+                <div class="col-md-7 al-center">
+                    <span>
+                        @Html.ActionLink("Trang chủ", "Index", "Service") |
+                        @Html.ActionLink("Giới thiệu", "About", "Service") |
+                        @Html.ActionLink("Hỗ trợ", "Contact", "Service") |
+                        <a href="#top">Về đầu trang</a>
+                    </span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--Hết footer-->
+
+    @Scripts.Render("~/bundles/jquery")
+    @Scripts.Render("~/bundles/bootstrap")
+    @RenderSection("scripts", required: false)
+</body>
+</html>
