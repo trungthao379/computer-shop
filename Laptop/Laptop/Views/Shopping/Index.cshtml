@@ -1,4 +1,5 @@
-﻿@model Laptop.ViewModels.ShoppingCartViewModel
+﻿@using Laptop.Utils
+@model Laptop.ViewModels.ShoppingCartViewModel
 @{
     ViewBag.Title = "Shopping Cart";
     Layout = "~/Views/Layout/CustomLayout.cshtml";
@@ -43,11 +44,47 @@
                         } else {
                             $('#item-count-' + data.DeleteId).text(data.ItemCount);
                         }
-                        $('#cart-total').text(data.CartTotal);
+                        $('#cart-total').text(convertPrice(data.CartTotal));
+                        $('#cart-status').children().last().text("CART(" + data.CartCount + ")");
                     })
             }
 
-        })
+        });
+
+        //convert price
+        function convertPrice(price) {
+            if (price >= 0) {
+                var m = Math.floor(price / 1000000);
+                var temp = price % 1000000;
+                var t = Math.floor(temp / 1000);
+                var u = temp % 1000;
+
+                var r = "" + m;
+                if (t >= 100) {
+                    r += "." + t;
+                }
+                else if (t >= 10) {
+                    r += ".0" + t;
+                }
+                else {
+                    r += ".00" + t;
+                }
+             
+                if (u >= 100) {
+                    r += "." + u;
+                }
+                else if (u >= 10) {
+                    r += ".0" + u;
+                }
+                else {
+                    r += ".00" + u;
+                }
+  
+                r += "đ";
+                return r;
+            }
+            return "0đ";
+        }
 
     });
 
@@ -80,7 +117,7 @@
                             @Html.ActionLink(item.Product.productName, "Details", "ProductDetail", new { id = item.ProductId }, null)
                         </td>
                         <td>
-                            @item.Product.unitPrice VND
+                            @StringUtil.convertPrice(item.Product.unitPrice)
                         </td>
                         <td data-id="item-count-@item.RecordId">
                             <input data-id="@item.ProductId" type="text" class="txt form-control" style="width:60px" value="@item.Count" />
@@ -95,15 +132,15 @@
                         Tổng số tiền:
                     </td>
                     <td></td>
-                    <td></td>
                     <td id="cart-total">
-                        @Model.CartTotal VND
+                        @StringUtil.convertPrice(Model.CartTotal)
                     </td>
+                    <td></td>
                 </tr>
                 <tr>
                     <td></td>
                     <td>@Html.ActionLink("Đặt hàng", "Index", "Order", null, new { @class = "btn btn-block btn-success", role = "button" })</td>
-                    <td>@Html.ActionLink("Hủy giỏ hàng", "EmptyCart", "Shopping", null, new { @class = "btn btn-block btn-default", role = "button" })</td>
+                    <td>@Html.ActionLink("Hủy giỏ hàng", "EmptyCart", "Shopping", null, new { @class = "btn btn-block btn-danger", role = "button" })</td>
                     <td>@Html.ActionLink("Tiếp tục mua hàng", "ShowNewProduct", "Show", null, new { @class = "btn btn-block btn-default", role = "button" })</td>
                 </tr>
             </table>

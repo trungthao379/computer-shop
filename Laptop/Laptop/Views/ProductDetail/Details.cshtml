@@ -2,13 +2,9 @@
 
 @{
     Layout = "~/Views/Layout/CustomLayout.cshtml";
-    ViewBag.Title = "Details";
+    ViewBag.Title = Model.productName;
 }
 
-@{
-    Layout = "~/Views/Layout/CustomLayout.cshtml";
-    ViewBag.Title = "Details";
-}
 @section scripts{
     <link href="~/Content/CustomLayoutCss/css/etalage.css" rel="stylesheet" />
     <script src="~/Content/CustomLayoutCss/js/jquery.etalage.min.js"></script>
@@ -51,7 +47,7 @@
         <div class="desc1 span_3_of_2">
             <h4>@Model.productName</h4>
             <div class="cart-b">
-                <div class="left-n ">@Model.unitPrice</div>
+                <div class="left-n ">@Laptop.Utils.StringUtil.convertPrice(Model.unitPrice)</div>
                 @if (Model.quantity > 0)
                 {
                     <a class="now-get get-cart-in" href="~/Shopping/AddToCart/@Model.productID">ADD TO CART</a>
@@ -120,7 +116,7 @@
     <script type="text/javascript" src="js/jquery.flexisel.js"></script>
 
     <div class="toogle">
-        <h3 class="m_3">Product Details</h3>
+        <h3 class="m_3">Thông tin sản phẩm - @Model.productName</h3>
         <div class="m_text">
             <table class="table table-hover">
                 <thead>
