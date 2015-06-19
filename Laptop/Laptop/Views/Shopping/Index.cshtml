@@ -96,8 +96,8 @@
         <h3 id="update-message" class="row al-center mg-1">
         </h3>
         <div class="mation">
-            <table class="table table-hover table-responsive">
-                <tr>
+            <table class="table table-hover">
+                <tr class="bg-danger">
                     <th style="border-top-style:none;font-size:20px">
                         Tên sản phẩm
                     </th>
@@ -141,7 +141,7 @@
                     <td></td>
                     <td>@Html.ActionLink("Đặt hàng", "Index", "Order", null, new { @class = "btn btn-block btn-success", role = "button" })</td>
                     <td>@Html.ActionLink("Hủy giỏ hàng", "EmptyCart", "Shopping", null, new { @class = "btn btn-block btn-danger", role = "button" })</td>
-                    <td>@Html.ActionLink("Tiếp tục mua hàng", "ShowNewProduct", "Show", null, new { @class = "btn btn-block btn-default", role = "button" })</td>
+                    <td>@Html.ActionLink("Tiếp tục mua hàng", "ShowNewProduct", "Show", null, new { @class = "btn btn-block btn-info", role = "button" })</td>
                 </tr>
             </table>
         </div>

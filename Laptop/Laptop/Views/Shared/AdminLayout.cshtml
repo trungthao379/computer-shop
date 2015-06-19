@@ -35,56 +35,54 @@
     <div class="panel" style="height:60px">
         &nbsp;
     </div>
-    <!--Phần nội dung chính của trang chủ-->
-    <div class="row mg-t-150">
-        <div class="col-md-1"></div>
-
-        <!--Thanh thao tác bên trái-->
-        <div class="col-md-2">
-            <div class="left-sidebar mg-t-70">
-                <!--Danh mục quản lý-->
-                <div class="panel panel-primary">
-                    <div class="panel-heading">
-                        <div class="row">
-                            <span class="f-s">Danh mục quản lý</span>
+    <div class="container-fluid">
+        <!--Phần nội dung chính của trang chủ-->
+        <div class="row mg-t-150">
+            <!--Thanh thao tác bên trái-->
+            <div class="col-md-2">
+                <div class="left-sidebar mg-t-70">
+                    <!--Danh mục quản lý-->
+                    <div class="panel panel-primary">
+                        <div class="panel-heading">
+                            <div class="row text-center">
+                                <span class="f-s">DANH MỤC QUẢN LÝ</span>
+                            </div>
                         </div>
+                        <div class="panel-body">
+                            <div class="row">
+                                <ul class="nav nav-pills nav-stacked">
+                                    <li>@Html.ActionLink("Quản lý sản phẩm", "Index", "ManageProduct")</li>
+                                    <li>@Html.ActionLink("Quản lý CPU", "Index", "ManageCPU")</li>
+                                    <li>@Html.ActionLink("Quản lý đĩa cứng", "Index", "ManageHardDrive")</li>
+                                    <li>@Html.ActionLink("Quản lý màn hình", "Index", "ManageScreen")</li>
+                                    <li>@Html.ActionLink("Quản lý đồ họa", "Index", "ManageGraphic")</li>
+                                    <li>@Html.ActionLink("Quản lý thương hiệu", "Index", "ManageManufacturer")</li>
+                                    <li>@Html.ActionLink("Quản lý hóa đơn", "Index", "ManageOrder")</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div><!--Hết danh mục quản lý-->
+            </div>
+
+            <!--Hết thanh thao tác bên trái-->
+            <!--Nội dung hiển thị-->
+            <div class="col-md-10">
+                <div class="panel panel-primary">
+                    <div class="panel-heading al-center">
+                        <h2 class="c-w" id="title1">
+                            @ViewBag.Heading
+                        </h2>
                     </div>
                     <div class="panel-body">
-                        <div class="row">
-                            <ul class="nav nav-pills nav-stacked">
-                                <li>@Html.ActionLink("Quản lý sản phẩm", "Index", "ManageProduct")</li>
-                                <li>@Html.ActionLink("Quản lý CPU", "Index", "ManageCPU")</li>
-                                <li>@Html.ActionLink("Quản lý đĩa cứng", "Index", "ManageHardDrive")</li>
-                                <li>@Html.ActionLink("Quản lý màn hình", "Index", "ManageScreen")</li>
-                                <li>@Html.ActionLink("Quản lý đồ họa", "Index", "ManageGraphic")</li>
-                                <li>@Html.ActionLink("Quản lý thương hiệu", "Index", "ManageManufacturer")</li>
-                                <li>@Html.ActionLink("Quản lý hóa đơn", "Index", "ManageOrder")</li>
-                            </ul>
-                        </div>
+                        @RenderBody()
                     </div>
                 </div>
-            </div><!--Hết danh mục quản lý-->
-        </div>
-
-        <!--Hết thanh thao tác bên trái-->
-        <!--Nội dung hiển thị-->
-        <div class="col-md-8">
-            <div class="panel panel-primary">
-                <div class="panel-heading al-center">
-                    <h2 class="c-w" id="title1">
-                        @ViewBag.Heading
-                    </h2>
-                </div>
-                <div class="panel-body">
-                    @RenderBody()
-                </div>
             </div>
+            <!--Hết phần nội dung hiển thị-->
         </div>
-        <!--Hết phần nội dung hiển thị-->
-
-        <div class="col-md-1"></div>
+        <!--Hết phần nội dung chính của trang chủ-->
     </div>
-    <!--Hết phần nội dung chính của trang chủ-->
     <!--Phần footer-->
     <div class="panel panel-default">
         <div class="panel-body">
@@ -100,8 +98,6 @@
     <script type="text/javascript">
 
     </script>
-
-
 
     <script src="~/js/bootstrap.min.js"></script>
 

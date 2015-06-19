@@ -45,7 +45,7 @@ namespace Laptop.Models
             cart.AddToCart(addedProduct); // Việc thêm giao cho đối tượng thuộc lớp ShoppingCart thực hiện
 
             // Trở về giỏ hàng sau  khi thêm
-            return RedirectToAction("ShowNewProduct","Show");
+            return RedirectToAction("Index","Shopping");
         }
 
         //Xử lý việc người dùng nhập số lượng cần mua

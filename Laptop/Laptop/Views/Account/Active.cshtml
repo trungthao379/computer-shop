@@ -1,19 +1,20 @@
 ﻿@model Laptop.Models.User
 
 @{
+    Layout = "~/Views/Layout/CustomLayout.cshtml";
     ViewBag.Title = "Active";
-    Layout = "~/Views/Shared/Layout1.cshtml";
 }
 
-
-<div class="panel panel-primary">
-    <div class="panel-heading al-center">
-        <h3>Kích hoạt thành công</h3>
-    </div>
-    <div class="panel-body">
-        <div class="row mg-30 al-center">
-            <p>Tài khoản @Model.UserName đã được kích hoạt thành công</p>
-            @Html.ActionLink("Về trang chủ", "ShowNewProduct", "Show");
+<div class="single_top">
+    <div class="panel panel-success">
+        <div class="panel-heading al-center">
+            <h3>Kích hoạt thành công</h3>
         </div>
-    </div>
+        <div class="panel-body">
+            <div class="row mg-30 al-center">
+                <p>Tài khoản @Model.UserName đã được kích hoạt thành công</p>
+                @Html.ActionLink("Về trang chủ", "ShowNewProduct", "Show");
+            </div>
+        </div>
+    </div>  
 </div>

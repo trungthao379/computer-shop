@@ -1,7 +1,7 @@
 ﻿@model Laptop.Models.User
 @{
-    ViewBag.Title = "Order";
-    Layout = "~/Views/Shared/Layout1.cshtml";
+    ViewBag.Title = "Đặt Hàng";
+    Layout = "~/Views/Layout/CustomLayout.cshtml";
 }
 
 <script src="~/Scripts/jquery-1.10.2.min.js"></script>
@@ -13,7 +13,7 @@
         });
         $(".cbTown").change(function () {
             $("#District").children().remove();
-            
+
             var x = $(".cbTown").val();
             alert(x);
             //ajax post
@@ -30,122 +30,161 @@
 </script>
 
 
+<div class="account_grid">
+    @using (Html.BeginForm("OrderHandle", "Order", FormMethod.Get))
+    {
+        <div class="register-bottom-grid">
+            <br />
+            <h3 class="text-center">THÔNG TIN ĐẶT HÀNG</h3>
 
-<div class="row mg-30">
-    <div class="panel panel-primary">
-        <div class="panel-heading al-center">
-            <h2 class="c-w">Đặt hàng</h2>
-        </div>
-        <div class="panel-body">
+            <div class="mation">
+                <span><input type="checkbox" data-id="checkbox" id="IsMe" /> Người nhận không phải tôi</span>
+                <br />
 
-            <div class="row">
-                @using (Html.BeginForm("OrderHandle", "Order", FormMethod.Get))
-                {
-                    
-                    <div class="row mg-30">
-                        
-                        <div class="col-md-8 col-md-offset-2">     
-                                                  
-                            <div class="row al-center">
-                                <p class="fnt-sub f-s c-pri">Hãy điền thông tin của bạn vào phần bên dưới!</p>
-                            </div>
-                            
-                            <div class="row">
-                                <div class="row mg-l-30-10">
-                                    <div class="col-md-1">
-                                        <input type="checkbox" data-id="checkbox" id="IsMe" />
-                                    </div>
-                                    <div class="col-md-3">
-                                        <p> &nbsp; Người nhận không phải tôi</p>
-                                    </div>                          
-                                </div>
-                            </div>
+                <span>Tên <label>*</label></span>
+                @Html.ValidationMessageFor(m => m.FirstName)
+                @Html.TextBox("fname", @Model.FirstName, new { @class = "form-control clear", id = "firstName" })
 
-                            <div class="row mg-1">
-                                <div class="col-md-3">
-                                    <label class="fnt-sub f-s">Họ : </label>
-                                </div>
-                                <div class="col-md-9">
-                                    @Html.TextBox("lname", @Model.LastName, new { @class = "form-control clear", id = "lastName", data_value ="abc" })
-                                    
-                                </div>
-                            </div>
-                            <div class="row mg-1">
-                                <div class="col-md-3">
-                                    <label class="fnt-sub f-s">Tên :</label>
-                                </div>
-                                <div class="col-md-9">
-                                    @Html.TextBox("fname", @Model.FirstName, new { @class = "form-control clear", id = "firstName" })
-                                </div>
-                            </div>
-                            
-                            <div class="row mg-1">
-                                <div class="col-md-3">
-                                    <label class="fnt-sub f-s">Điện thoại:</label>
-                                </div>
-                                <div class="col-md-9">
-                                    @Html.TextBox("phone", @Model.Phone, new { @class = "form-control clear", id = "phone"})
-                                </div>
-                            </div>
+                <span>Họ <label>*</label></span>
+                @Html.ValidationMessageFor(m => m.LastName)
+                @Html.TextBox("lname", @Model.LastName, new { @class = "form-control clear", id = "lastName", data_value = "abc" })
 
-                            <div class="row mg-1">
-                                <div class="col-md-3">
-                                    <label class="fnt-sub f-s">Email:</label>
-                                </div>
-                                <div class="col-md-9">
-                                    @Html.TextBox("email", @Model.Email, new { @class = "form-control clear", id = "email" })
-                                </div>
-                            </div>
+                <span>Email <label>*</label></span>
+                @Html.ValidationMessageFor(m => m.Email)
+                @Html.TextBox("email", @Model.Email, new { @class = "form-control clear", id = "email" })
 
-                            <div class="row mg-1">
-                                <div class="col-md-3">
-                                    <label class="fnt-sub f-s">Tỉnh/Thành phố:</label>
-                                </div>
-                                <div class="col-md-9">
-                                    @Html.DropDownList("Town", ViewData["Town"] as List<SelectListItem>, null, new { @class = "form-control cbTown" })
-                                </div>
-                            </div>
+                <span>Điện thoại <label>*</label></span>
+                @Html.ValidationMessageFor(m => m.Phone)
+                @Html.TextBox("phone", @Model.Phone, new { @class = "form-control clear", id = "phone" })
 
-                            <div class="row mg-1">
-                                <div class="col-md-3">
-                                    <label class="fnt-sub f-s">Huyện/Quận:</label>
-                                </div>
-                                <div class="col-md-9">
-                                    @Html.DropDownList("District", ViewData["District"] as List<SelectListItem>, null,
-                                        new { @class = "form-control cbDistrict", data_id = "cbTown" })
-                                </div>
-                            </div>
+                <span>Địa chỉ <label>*</label></span>
+                @Html.ValidationMessageFor(m => m.Address)
+                @Html.TextBox("address", @Model.Address, new { @class = "form-control clear", id = "address" })
 
-                            <div class="row mg-1">
-                                <div class="col-md-3">
-                                    <label class="fnt-sub f-s">Địa chỉ:</label>
-                                </div>
-                                <div class="col-md-9">
-                                    @Html.TextBox("address", @Model.Address, new { @class = "form-control clear", id = "address" })
-                                </div>
-                            </div>
-
-                            <div class="row mg-1">
-                                <div class="col-md-3">
-                                    <label class="fnt-sub f-s">Hình thức thanh toán:</label>
-                                </div>
-                                <div class="col-md-9">
-                                    @Html.DropDownList("PayForm", ViewData["PayForm"] as List<SelectListItem>, null,
-                                        new { @class = "form-control" })
-                                </div>
-                            </div>
-
-
-                        </div>
-                        <div class="row">
-                            <div class="col-md-3 col-md-offset-5">
-                                <input type="submit" class="btn btn-info btn-block" value="Đặt hàng" />
-                            </div>
-                        </div>
-                    </div>
-                }
+                <span>Hình thức thanh toán <label>*</label></span>
+                @Html.DropDownList("PayForm", ViewData["PayForm"] as List<SelectListItem>, null,
+                                        new { @class = "form-control disabled" })
             </div>
+            <div class="clearfix"> </div>
         </div>
-    </div>
-</div>
+        <div class="register-but">
+            <input type="submit" value="Đặt Hàng" />
+            <div class="clearfix"> </div>
+        </div>
+    }
+    @*<div class="panel panel-primary">
+            <div class="panel-heading al-center">
+                <h2 class="c-w">Đặt hàng</h2>
+            </div>
+            <div class="panel-body">
 
+                <div class="row">
+                    @using (Html.BeginForm("OrderHandle", "Order", FormMethod.Get))
+                    {
+
+                        <div class="row mg-30">
+
+                            <div class="col-md-8 col-md-offset-2">
+
+                                <div class="row al-center">
+                                    <p class="fnt-sub f-s c-pri">Hãy điền thông tin của bạn vào phần bên dưới!</p>
+                                </div>
+
+                                <div class="row">
+                                    <div class="row mg-l-30-10">
+                                        <div class="col-md-1">
+                                            <input type="checkbox" data-id="checkbox" id="IsMe" />
+                                        </div>
+                                        <div class="col-md-3">
+                                            <p> &nbsp; Người nhận không phải tôi</p>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="row mg-1">
+                                    <div class="col-md-3">
+                                        <label class="fnt-sub f-s">Họ : </label>
+                                    </div>
+                                    <div class="col-md-9">
+                                        @Html.TextBox("lname", @Model.LastName, new { @class = "form-control clear", id = "lastName", data_value ="abc" })
+
+                                    </div>
+                                </div>
+                                <div class="row mg-1">
+                                    <div class="col-md-3">
+                                        <label class="fnt-sub f-s">Tên :</label>
+                                    </div>
+                                    <div class="col-md-9">
+                                        @Html.TextBox("fname", @Model.FirstName, new { @class = "form-control clear", id = "firstName" })
+                                    </div>
+                                </div>
+
+                                <div class="row mg-1">
+                                    <div class="col-md-3">
+                                        <label class="fnt-sub f-s">Điện thoại:</label>
+                                    </div>
+                                    <div class="col-md-9">
+                                        @Html.TextBox("phone", @Model.Phone, new { @class = "form-control clear", id = "phone"})
+                                    </div>
+                                </div>
+
+                                <div class="row mg-1">
+                                    <div class="col-md-3">
+                                        <label class="fnt-sub f-s">Email:</label>
+                                    </div>
+                                    <div class="col-md-9">
+                                        @Html.TextBox("email", @Model.Email, new { @class = "form-control clear", id = "email" })
+                                    </div>
+                                </div>
+
+                                <div class="row mg-1">
+                                    <div class="col-md-3">
+                                        <label class="fnt-sub f-s">Tỉnh/Thành phố:</label>
+                                    </div>
+                                    <div class="col-md-9">
+                                        @Html.DropDownList("Town", ViewData["Town"] as List<SelectListItem>, null, new { @class = "form-control cbTown" })
+                                    </div>
+                                </div>
+
+                                <div class="row mg-1">
+                                    <div class="col-md-3">
+                                        <label class="fnt-sub f-s">Huyện/Quận:</label>
+                                    </div>
+                                    <div class="col-md-9">
+                                        @Html.DropDownList("District", ViewData["District"] as List<SelectListItem>, null,
+                                            new { @class = "form-control cbDistrict", data_id = "cbTown" })
+                                    </div>
+                                </div>
+
+                                <div class="row mg-1">
+                                    <div class="col-md-3">
+                                        <label class="fnt-sub f-s">Địa chỉ:</label>
+                                    </div>
+                                    <div class="col-md-9">
+                                        @Html.TextBox("address", @Model.Address, new { @class = "form-control clear", id = "address" })
+                                    </div>
+                                </div>
+
+                                <div class="row mg-1">
+                                    <div class="col-md-3">
+                                        <label class="fnt-sub f-s">Hình thức thanh toán:</label>
+                                    </div>
+                                    <div class="col-md-9">
+                                        @Html.DropDownList("PayForm", ViewData["PayForm"] as List<SelectListItem>, null,
+                                            new { @class = "form-control" })
+                                    </div>
+                                </div>
+
+
+                            </div>
+                            <div class="row">
+                                <div class="col-md-3 col-md-offset-5">
+                                    <input type="submit" class="btn btn-info btn-block" value="Đặt hàng" />
+                                </div>
+                            </div>
+                        </div>
+                    }
+                </div>
+            </div>
+        </div>*@
+</div>

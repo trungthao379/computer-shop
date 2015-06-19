@@ -2,8 +2,14 @@
 
 @{
     ViewBag.Title = "Error";
+    Layout = "~/Views/Layout/CustomLayout.cshtml";
+    if (ViewBag.Message == null)
+    {
+        ViewBag.Message = "Sorry :(";
+    }
 }
 
-<h1 class="text-danger">Error.</h1>
-<h2 class="text-danger">An error occurred while processing your request.</h2>
-
+<div class="single_top text-center">
+    <h1 class="text-danger">Error.</h1>
+    <h2 class="text-danger">@ViewBag.Message</h2>
+</div>

@@ -18,7 +18,7 @@ public class XMail
     /// <param name="body">Nội dung mail</param>
     public static void Send(String to, String subject, String body)
     {
-        var from = "Hoàng Phương Computer <kentphp2@gmail.com>";
+        var from = "Web Master <kentphp2@gmail.com>";
         Send(from, to, subject, body);
     }
 
@@ -74,11 +74,10 @@ public class XMail
         }
 
         // Kết nối GMail
-        var client = new SmtpClient("smtp.gmail.com", 587)
-        {
-            Credentials = new NetworkCredential("nguyenluancntt11@gmail.com", "nguyenluan1911"),
-            EnableSsl = true
-        };
+        SmtpClient client = new SmtpClient("smtp.gmail.com", 587);
+        client.UseDefaultCredentials = false;
+        client.Credentials = new NetworkCredential("waycubiphuong@gmail.com", "waycubiphuong");
+        client.EnableSsl = true;
         // Gởi mail
         client.Send(message);
     }

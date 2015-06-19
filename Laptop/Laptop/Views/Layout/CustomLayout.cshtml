@@ -65,7 +65,13 @@
                 <div class="header-bottom-right">
                     @if (HttpContext.Current.User.Identity.IsAuthenticated)
                     {
-                        <div class="account"><a href="~/Account/Manager"><span> </span>YOUR ACCOUNT</a></div>
+                        <ul class="account">
+                            <li><a href="~/Account/Manager"><span> </span>Hi @HttpContext.Current.User.Identity.Name !</a></li>
+                            <li><a href="javascript:document.getElementById('logoutForm').submit()">LOGOUT</a></li>
+                        </ul>
+                        <form id="logoutForm" action="~/Account/LogOff" method="post">
+                              @Html.AntiForgeryToken()
+                        </form> 
                     }
                     else
                     {
@@ -156,7 +162,7 @@
                         <li>Tp Hồ Chí Minh</li>
                         <li class="phone">PH: 0988668866</li>
                         <li class="phone">EM: <a href="mailto:hoangphuongcomputer@gmail.com">hoangphuongcomputer@gmail.com</a></li>
-                        <li class="temp"> <p class="footer-class">Design by <a href="#">TT</a> </p></li>
+                        <li class="temp"> <p class="footer-class">Design by <a href="mailto:trungthao1308@gmail.com">trungthao379</a> </p></li>
                     </ul>
                 </div>
                 <div class="clearfix"> </div>

@@ -50,9 +50,9 @@ namespace Laptop.Models
             ViewData["District"] = new SelectList(DLst);
 
             List<SelectListItem> PayForm = new List<SelectListItem>();
+            PayForm.Add(new SelectListItem { Text = "Thanh toán tại nhà", Value = "Tại nhà" });
             PayForm.Add(new SelectListItem { Text = "Thanh toán Online", Value = "Online" });
             PayForm.Add(new SelectListItem { Text = "Thanh toán bằng thẻ Ngân hàng", Value = "Thẻ tín dụng" });
-            PayForm.Add(new SelectListItem { Text = "Thanh toán tại nhà", Value = "Tại nhà" });
             ViewData["PayForm"] = PayForm;
             return View(x);
         }
@@ -170,8 +170,8 @@ namespace Laptop.Models
                 OrderDate = Odate,
                 ShipDate = Sdate
             };
+          
             return View(viewModel);
-
         }
 
         [HttpPost]

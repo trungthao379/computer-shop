@@ -16,10 +16,11 @@ namespace Laptop.Models
     public class AccountController : Controller
     {
         public static string role;
-        public LaptopEntities db = new LaptopEntities();
+        public LaptopEntities db;
         public AccountController()
             : this(new UserManager<ApplicationUser>(new UserStore<ApplicationUser>(new ApplicationDbContext())))
         {
+            db = new LaptopEntities();
         }
 
         public AccountController(UserManager<ApplicationUser> userManager)
@@ -48,19 +49,25 @@ namespace Laptop.Models
             if (ModelState.IsValid)
             {
                 var user = await UserManager.FindAsync(model.UserName, model.Password);
-
-                var u = db.Users.SingleOrDefault(t=>t.UserName.Equals(model.UserName));
-
-                if (user != null && u.Active) 
+                if (user != null)
                 {
-                    await SignInAsync(user, model.RememberMe);
-                    
-                    if (model.UserName=="Admin")
+                    var u = db.Users.SingleOrDefault(t => t.UserName.Equals(model.UserName));
+
+                    if (u != null && u.Active)
                     {
-                        return RedirectToAction("Index", "ManageProduct");
+                        await SignInAsync(user, model.RememberMe);
+
+                        if (model.UserName == "Admin")
+                        {
+                            return RedirectToAction("Index", "ManageProduct");
+                        }
+                        Session["user"] = model.UserName;
+                        return RedirectToAction("ShowNewProduct", "Show");
                     }
-                    Session["user"] = model.UserName;
-                    return RedirectToAction("ShowNewProduct", "Show");
+                    else
+                    {
+                        ModelState.AddModelError("", "Tài khoản chưa được kích hoạt !\nVui lòng vào email đăng ký để kích hoạt !"); // Nếu đăng nhập sai
+                    }
                 }
                 else
                 {
@@ -85,7 +92,7 @@ namespace Laptop.Models
             return View();
         }
 
-        
+
 
         //
         // POST: /Account/Register
@@ -104,11 +111,9 @@ namespace Laptop.Models
             {
                 var user = new ApplicationUser() { UserName = model.UserName };
                 var result = await UserManager.CreateAsync(user, model.Password);
-                
+
                 if (result.Succeeded)
                 {
-                    
-
                     // Gửi mail
 
                     string mailTo = model.Email;
@@ -116,7 +121,7 @@ namespace Laptop.Models
                     string subject = "Hoàng Phương Computer - Đăng ký tài khoản thành công";
                     string body = "Quý khách đã đăng ký tài khoản thành công! " +
                         "Tài khoản: " + model.UserName + " " + "Mật khẩu: " + model.Password + " "
-                        + " cảm ơn quý khách đã sử dụng dịch vụ của chúng tôi!"
+                        + " cảm ơn quý khách đã sử dụng dịch vụ của chúng tôi! "
                         + "Quý khách theo đường link sau để kích hoạt tài khoản: <a href='" + url + "'>link</a>";
                     //string body = "<a href='" + url + "'>vào đây để kích hoạt</a>";                 
                     //await SignInAsync(user, isPersistent: false);
@@ -132,33 +137,35 @@ namespace Laptop.Models
                     u.Phone = model.Phone;
                     u.Active = false;
 
+                    ViewBag.StatusSigUp = "Đăng ký thành công, thông tin đã được chuyển sang mail của bạn.";
+                    if (model.UserName.Equals("Admin"))
+                    {
+                        u.Role = "Admin";
+                        role = "Ad"; // Nếu đăng ký user admin thì về trang quản lý sản phẩm
+                    }
+                    else
+                    {
+                        role = "User"; // Nếu đăng ký user thông thường thì ở lại trang chủ
+                        u.Role = "User";
+                    }
+
+                    db.Entry<User>(u).State = System.Data.Entity.EntityState.Added; // lưu lại thông tin user đã đăng ký
+                    db.SaveChanges();
                     try
                     {
-                        ViewBag.StatusSigUp = "Đăng ký thành công, thông tin đã được chuyển sang mail của bạn.";
-                        if (model.UserName.Equals("Admin"))
-                        {
-                            u.Role = "Admin";
-                            role = "Ad"; // Nếu đăng ký user admin thì về trang quản lý sản phẩm
-                        }
-                        role="User"; // Nếu đăng ký user thông thường thì ở lại trang chủ
-                        u.Role = "User";
-                        
                         XMail.Send(mailTo, subject, body); // Gửi mail
-
-                        db.Users.Add(u); // lưu lại thông tin user đã đăng ký
-                        db.SaveChanges();
 
                         return RedirectToAction("RegisterNotify"); // chuyển sang trang đăng ký thành công
                     }
                     catch
                     {
                         ViewBag.StatusSigUp = "Không thể gửi mail, vui lòng thử lại.";
-                        
-                    }                  
+                        return View(model);
+                    }
                 }
                 else
                 {
-                    AddErrors(result); // Nếu đăng ký sai
+                    AddErrors(result);// Nếu đăng ký sai
                 }
             }
 
@@ -167,23 +174,24 @@ namespace Laptop.Models
         }
         public ActionResult RegisterNotify()
         {
-
             return View();
         }
 
-        public ActionResult Active(string Username)
+        public ActionResult Active(string userName)
         {
+            var u = db.Users.Find(userName);
 
-            var u = db.Users.Find(Username);
-            
             if (u != null)
             {
                 u.Active = true;
+                ViewBag.Username = u.UserName;
+                db.Entry(u).State = System.Data.Entity.EntityState.Modified;
+                db.SaveChanges();
+                return View(u);
             }
-            
-            ViewBag.Username = Username;
-            db.SaveChanges();
-            return View(u);
+
+            ViewBag.Message = "Không thể kích hoạt tài khoản !";
+            return View("Error");
         }
         //
         // POST: /Account/Disassociate
@@ -383,6 +391,7 @@ namespace Laptop.Models
             cart.EmptyCart(); //  Việc làm rỗng giỏ hàng được giao cho đối tượng thuộc lớp ShoppingCart
 
             AuthenticationManager.SignOut();
+            Session.Clear();
             return RedirectToAction("ShowNewProduct", "Show");
         }
 
@@ -471,7 +480,8 @@ namespace Laptop.Models
 
         private class ChallengeResult : HttpUnauthorizedResult
         {
-            public ChallengeResult(string provider, string redirectUri) : this(provider, redirectUri, null)
+            public ChallengeResult(string provider, string redirectUri)
+                : this(provider, redirectUri, null)
             {
             }
 
